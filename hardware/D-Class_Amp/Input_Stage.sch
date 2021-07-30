@@ -13,10 +13,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 5000 4050 3150 1300
-U 6104907A
-F0 "Input_Stage" 50
-F1 "Input_Stage.sch" 50
-$EndSheet
 $EndSCHEMATC
