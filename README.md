@@ -22,8 +22,7 @@ ECEN405 Class-D amplifier group project
 
 ---
 ## Power Stage
-
-
+- 2x IR21834PBF drivers
 
 ---
 ## Output filter
