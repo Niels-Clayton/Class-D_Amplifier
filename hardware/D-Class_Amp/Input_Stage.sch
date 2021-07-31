@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 1 1
 Title "D-Class Input Filter"
 Date "2021-07-31"
 Rev "1.0.0"
@@ -14,65 +14,10 @@ Comment3 "Second two stages make a voltage follower and 2nd order high-pass-filt
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Opamp_Quad_Generic U?
-U 2 1 6104ADDA
-P 6250 3100
-F 0 "U?" H 6250 3100 50  0000 C CNN
-F 1 "Opamp_Quad_Generic" H 6600 2850 50  0000 C CNN
-F 2 "" H 6250 3100 50  0001 C CNN
-F 3 "~" H 6250 3100 50  0001 C CNN
-	2    6250 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Opamp_Quad_Generic U?
-U 3 1 6104B460
-P 3450 4650
-F 0 "U?" H 3450 4283 50  0000 C CNN
-F 1 "Opamp_Quad_Generic" H 3850 4850 50  0000 C CNN
-F 2 "" H 3450 4650 50  0001 C CNN
-F 3 "~" H 3450 4650 50  0001 C CNN
-	3    3450 4650
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Opamp_Quad_Generic U?
-U 4 1 6104BA16
-P 6250 4550
-F 0 "U?" H 6250 4550 50  0000 C CNN
-F 1 "Opamp_Quad_Generic" H 6400 4250 50  0000 C CNN
-F 2 "" H 6250 4550 50  0001 C CNN
-F 3 "~" H 6250 4550 50  0001 C CNN
-	4    6250 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Opamp_Quad_Generic U?
-U 5 1 6104C141
-P 7900 3700
-F 0 "U?" V 7575 3700 50  0000 C CNN
-F 1 "Opamp_Quad_Generic" V 7450 3700 50  0000 C CNN
-F 2 "" H 7900 3700 50  0001 C CNN
-F 3 "~" H 7900 3700 50  0001 C CNN
-	5    7900 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Opamp_Quad_Generic U?
-U 1 1 6104A90C
-P 3700 3100
-F 0 "U?" H 3700 3100 50  0000 C CNN
-F 1 "Opamp_Quad_Generic" H 4100 3300 50  0000 C CNN
-F 2 "" H 3700 3100 50  0001 C CNN
-F 3 "~" H 3700 3100 50  0001 C CNN
-	1    3700 3100
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R?
+L Device:R R101
 U 1 1 61051550
 P 2750 3200
-F 0 "R?" V 2543 3200 50  0000 C CNN
+F 0 "R101" V 2543 3200 50  0000 C CNN
 F 1 "5.6k" V 2634 3200 50  0000 C CNN
 F 2 "" V 2680 3200 50  0001 C CNN
 F 3 "~" H 2750 3200 50  0001 C CNN
@@ -80,10 +25,10 @@ F 3 "~" H 2750 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C102
 U 1 1 610518F4
 P 3350 3400
-F 0 "C?" H 3235 3354 50  0000 R CNN
+F 0 "C102" H 3235 3354 50  0000 R CNN
 F 1 "100n" H 3235 3445 50  0000 R CNN
 F 2 "" H 3388 3250 50  0001 C CNN
 F 3 "~" H 3350 3400 50  0001 C CNN
@@ -91,10 +36,10 @@ F 3 "~" H 3350 3400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R102
 U 1 1 61052760
 P 3150 3200
-F 0 "R?" V 2943 3200 50  0000 C CNN
+F 0 "R102" V 2943 3200 50  0000 C CNN
 F 1 "8.2k" V 3034 3200 50  0000 C CNN
 F 2 "" V 3080 3200 50  0001 C CNN
 F 3 "~" H 3150 3200 50  0001 C CNN
@@ -113,10 +58,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 3100 4000 3100
 $Comp
-L Device:C C?
+L Device:C C101
 U 1 1 6105C4D1
 P 3150 2800
-F 0 "C?" V 2898 2800 50  0000 C CNN
+F 0 "C101" V 2898 2800 50  0000 C CNN
 F 1 "100n" V 2989 2800 50  0000 C CNN
 F 2 "" H 3188 2650 50  0001 C CNN
 F 3 "~" H 3150 2800 50  0001 C CNN
@@ -142,10 +87,10 @@ Connection ~ 3350 2800
 Wire Wire Line
 	3350 2800 4050 2800
 $Comp
-L Device:R R?
+L Device:R R103
 U 1 1 6105F15E
 P 5300 3200
-F 0 "R?" V 5093 3200 50  0000 C CNN
+F 0 "R103" V 5093 3200 50  0000 C CNN
 F 1 "5.6k" V 5184 3200 50  0000 C CNN
 F 2 "" V 5230 3200 50  0001 C CNN
 F 3 "~" H 5300 3200 50  0001 C CNN
@@ -153,10 +98,10 @@ F 3 "~" H 5300 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C104
 U 1 1 6105F164
 P 5900 3400
-F 0 "C?" H 5785 3354 50  0000 R CNN
+F 0 "C104" H 5785 3354 50  0000 R CNN
 F 1 "100n" H 5785 3445 50  0000 R CNN
 F 2 "" H 5938 3250 50  0001 C CNN
 F 3 "~" H 5900 3400 50  0001 C CNN
@@ -164,10 +109,10 @@ F 3 "~" H 5900 3400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R104
 U 1 1 6105F16A
 P 5700 3200
-F 0 "R?" V 5493 3200 50  0000 C CNN
+F 0 "R104" V 5493 3200 50  0000 C CNN
 F 1 "8.2k" V 5584 3200 50  0000 C CNN
 F 2 "" V 5630 3200 50  0001 C CNN
 F 3 "~" H 5700 3200 50  0001 C CNN
@@ -186,10 +131,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 3100 6550 3100
 $Comp
-L Device:C C?
+L Device:C C103
 U 1 1 6105F17C
 P 5700 2800
-F 0 "C?" V 5448 2800 50  0000 C CNN
+F 0 "C103" V 5448 2800 50  0000 C CNN
 F 1 "100n" V 5539 2800 50  0000 C CNN
 F 2 "" H 5738 2650 50  0001 C CNN
 F 3 "~" H 5700 2800 50  0001 C CNN
@@ -225,10 +170,10 @@ Wire Wire Line
 Wire Wire Line
 	3800 4650 3750 4650
 $Comp
-L Device:R R?
+L Device:R R106
 U 1 1 6106C181
 P 5900 4850
-F 0 "R?" H 5830 4804 50  0000 R CNN
+F 0 "R106" H 5830 4804 50  0000 R CNN
 F 1 "8.2k" H 5830 4895 50  0000 R CNN
 F 2 "" V 5830 4850 50  0001 C CNN
 F 3 "~" H 5900 4850 50  0001 C CNN
@@ -240,10 +185,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 4650 5950 4650
 $Comp
-L Device:C C?
+L Device:C C106
 U 1 1 61078298
 P 5700 4650
-F 0 "C?" V 5448 4650 50  0000 C CNN
+F 0 "C106" V 5448 4650 50  0000 C CNN
 F 1 "100n" V 5539 4650 50  0000 C CNN
 F 2 "" H 5738 4500 50  0001 C CNN
 F 3 "~" H 5700 4650 50  0001 C CNN
@@ -251,10 +196,10 @@ F 3 "~" H 5700 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C105
 U 1 1 61078600
 P 5300 4650
-F 0 "C?" V 5048 4650 50  0000 C CNN
+F 0 "C105" V 5048 4650 50  0000 C CNN
 F 1 "100n" V 5139 4650 50  0000 C CNN
 F 2 "" H 5338 4500 50  0001 C CNN
 F 3 "~" H 5300 4650 50  0001 C CNN
@@ -265,10 +210,10 @@ Wire Wire Line
 	5900 4650 5850 4650
 Connection ~ 5900 4650
 $Comp
-L Device:R R?
+L Device:R R105
 U 1 1 6107C170
 P 5700 4250
-F 0 "R?" V 5493 4250 50  0000 C CNN
+F 0 "R105" V 5493 4250 50  0000 C CNN
 F 1 "8.2k" V 5584 4250 50  0000 C CNN
 F 2 "" V 5630 4250 50  0001 C CNN
 F 3 "~" H 5700 4250 50  0001 C CNN
@@ -298,10 +243,10 @@ Wire Wire Line
 	6600 4550 6550 4550
 Connection ~ 5900 4250
 $Comp
-L Device:C C?
+L Device:C C107
 U 1 1 6108D745
 P 7550 3800
-F 0 "C?" H 7435 3754 50  0000 R CNN
+F 0 "C107" H 7435 3754 50  0000 R CNN
 F 1 "100n" H 7435 3845 50  0000 R CNN
 F 2 "" H 7588 3650 50  0001 C CNN
 F 3 "~" H 7550 3800 50  0001 C CNN
@@ -309,10 +254,10 @@ F 3 "~" H 7550 3800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C108
 U 1 1 61092744
 P 8250 3800
-F 0 "C?" H 8135 3846 50  0000 R CNN
+F 0 "C108" H 8135 3846 50  0000 R CNN
 F 1 "100n" H 8135 3755 50  0000 R CNN
 F 2 "" H 8288 3650 50  0001 C CNN
 F 3 "~" H 8250 3800 50  0001 C CNN
@@ -443,5 +388,60 @@ F 2 "" H 8250 3550 50  0001 C CNN
 F 3 "" H 8250 3550 50  0001 C CNN
 	1    8250 3550
 	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U11
+U 1 1 61050744
+P 3700 3100
+F 0 "U11" H 3700 3100 50  0000 C CNN
+F 1 "LM324" H 3700 2850 50  0000 C CNN
+F 2 "" H 3650 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3750 3300 50  0001 C CNN
+	1    3700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U11
+U 2 1 6105141E
+P 6250 3100
+F 0 "U11" H 6250 3100 50  0000 C CNN
+F 1 "LM324" H 6250 2850 50  0000 C CNN
+F 2 "" H 6200 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6300 3300 50  0001 C CNN
+	2    6250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U11
+U 3 1 61052C39
+P 3450 4650
+F 0 "U11" H 3450 4650 50  0000 C CNN
+F 1 "LM324" H 3450 4400 50  0000 C CNN
+F 2 "" H 3400 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3500 4850 50  0001 C CNN
+	3    3450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U11
+U 4 1 61053F29
+P 6250 4550
+F 0 "U11" H 6250 4550 50  0000 C CNN
+F 1 "LM324" H 6250 4300 50  0000 C CNN
+F 2 "" H 6200 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6300 4750 50  0001 C CNN
+	4    6250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U11
+U 5 1 610564DD
+P 7900 3700
+F 0 "U11" V 7575 3700 50  0000 C CNN
+F 1 "LM324" V 7666 3700 50  0000 C CNN
+F 2 "" H 7850 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7950 3900 50  0001 C CNN
+	5    7900 3700
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
