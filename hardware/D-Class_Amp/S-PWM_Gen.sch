@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
-Title ""
+Sheet 1 1
+Title "S-PWM Generator "
 Date ""
 Rev ""
 Comp ""
@@ -47,10 +47,10 @@ F 3 "~" H 4375 1325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R202
+L Device:R R203
 U 1 1 61054D4F
 P 2975 2275
-F 0 "R202" V 2768 2275 50  0000 C CNN
+F 0 "R203" V 2768 2275 50  0000 C CNN
 F 1 "10K" V 2859 2275 50  0000 C CNN
 F 2 "" V 2905 2275 50  0001 C CNN
 F 3 "~" H 2975 2275 50  0001 C CNN
@@ -58,22 +58,11 @@ F 3 "~" H 2975 2275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R201
-U 1 1 61055E03
-P 3675 2525
-F 0 "R201" V 3468 2525 50  0000 C CNN
-F 1 "6.8k" V 3559 2525 50  0000 C CNN
-F 2 "" V 3605 2525 50  0001 C CNN
-F 3 "~" H 3675 2525 50  0001 C CNN
-	1    3675 2525
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R203
+L Device:R R204
 U 1 1 610560D6
 P 3675 1825
-F 0 "R203" V 3468 1825 50  0000 C CNN
-F 1 "1k" V 3559 1825 50  0000 C CNN
+F 0 "R204" V 3468 1825 50  0000 C CNN
+F 1 "620" V 3559 1825 50  0000 C CNN
 F 2 "" V 3605 1825 50  0001 C CNN
 F 3 "~" H 3675 1825 50  0001 C CNN
 	1    3675 1825
@@ -96,17 +85,9 @@ Wire Wire Line
 	2525 2275 2525 1925
 Wire Wire Line
 	2525 1925 2675 1925
-Wire Wire Line
-	3525 2525 2525 2525
-Wire Wire Line
-	2525 2525 2525 2275
 Connection ~ 2525 2275
 Wire Wire Line
-	3825 2525 4825 2525
-Wire Wire Line
 	4675 1925 4825 1925
-Wire Wire Line
-	4825 1925 4825 2525
 $Comp
 L power:GNDS #PWR?
 U 1 1 61064912
@@ -125,16 +106,16 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR?
 U 1 1 61065BCC
-P 3975 2125
-F 0 "#PWR?" H 3975 1875 50  0001 C CNN
-F 1 "GNDS" H 3980 1952 50  0000 C CNN
-F 2 "" H 3975 2125 50  0001 C CNN
-F 3 "" H 3975 2125 50  0001 C CNN
-	1    3975 2125
+P 3975 2075
+F 0 "#PWR?" H 3975 1825 50  0001 C CNN
+F 1 "GNDS" H 3980 1902 50  0000 C CNN
+F 2 "" H 3975 2075 50  0001 C CNN
+F 3 "" H 3975 2075 50  0001 C CNN
+	1    3975 2075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3975 2125 3975 2025
+	3975 2075 3975 2025
 Wire Wire Line
 	3975 2025 4075 2025
 Wire Wire Line
@@ -214,8 +195,6 @@ F 3 "" H 1025 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1025 1775 1025 1425
-Wire Wire Line
 	4825 1925 5325 1925
 Text Label 5325 1925 2    50   ~ 0
 sig_triangle
@@ -246,10 +225,10 @@ F 3 "~" H 8750 2375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C202
+L Device:C C204
 U 1 1 610E9B40
 P 7650 1625
-F 0 "C202" H 7765 1671 50  0000 L CNN
+F 0 "C204" H 7765 1671 50  0000 L CNN
 F 1 "100n" H 7765 1580 50  0000 L CNN
 F 2 "" H 7688 1475 50  0001 C CNN
 F 3 "~" H 7650 1625 50  0001 C CNN
@@ -309,8 +288,6 @@ F 3 "" H 6950 1775 50  0001 C CNN
 	1    6950 1775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 1775 6950 1425
 Text HLabel 8450 2275 0    50   Input ~ 0
 SIG_IN
 Text HLabel 8450 1275 0    50   Input ~ 0
@@ -322,10 +299,10 @@ sig_triangle
 Wire Wire Line
 	9050 1375 9350 1375
 $Comp
-L Device:R R204
+L Device:R R205
 U 1 1 6112AEF0
 P 9350 1125
-F 0 "R204" H 9420 1171 50  0000 L CNN
+F 0 "R205" H 9420 1171 50  0000 L CNN
 F 1 "10k" H 9420 1080 50  0000 L CNN
 F 2 "" V 9280 1125 50  0001 C CNN
 F 3 "~" H 9350 1125 50  0001 C CNN
@@ -353,10 +330,10 @@ Wire Wire Line
 Wire Wire Line
 	9050 2375 9350 2375
 $Comp
-L Device:R R205
+L Device:R R206
 U 1 1 61138A41
 P 9350 2125
-F 0 "R205" H 9420 2171 50  0000 L CNN
+F 0 "R206" H 9420 2171 50  0000 L CNN
 F 1 "10k" H 9420 2080 50  0000 L CNN
 F 2 "" V 9280 2125 50  0001 C CNN
 F 3 "~" H 9350 2125 50  0001 C CNN
@@ -392,9 +369,6 @@ F 3 "" H 1025 1325 50  0001 C CNN
 	1    1025 1325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1025 1325 1025 1425
-Connection ~ 1025 1425
 $Comp
 L power:-5V #PWR?
 U 1 1 611AED99
@@ -408,13 +382,75 @@ F 3 "" H 6950 1325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 1325 6950 1425
-Connection ~ 6950 1425
-Wire Notes Line
-	11225 3025 475  3025
-Text Notes 4650 2975 0    50   ~ 10
-25kHz Triangle Wave Generation
 Text Notes 9450 2975 0    50   ~ 10
 S-PWM Inverting and Non-inverting outputs
 Wire Notes Line
 	6300 3025 6300 475 
+$Comp
+L Device:R R201
+U 1 1 61055E03
+P 3925 2600
+F 0 "R201" V 3718 2600 50  0000 C CNN
+F 1 "9.1k" V 3809 2600 50  0000 C CNN
+F 2 "" V 3855 2600 50  0001 C CNN
+F 3 "~" H 3925 2600 50  0001 C CNN
+	1    3925 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Variable R202
+U 1 1 6105EC41
+P 3450 2600
+F 0 "R202" V 3250 2600 50  0000 C CNN
+F 1 "1k" V 3350 2600 50  0000 C CNN
+F 2 "" V 3380 2600 50  0001 C CNN
+F 3 "~" H 3450 2600 50  0001 C CNN
+F 4 "CT6EP102" V 3450 2600 50  0001 C CNN "Part Number"
+	1    3450 2600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3775 2600 3600 2600
+Wire Wire Line
+	3300 2600 2525 2600
+Wire Wire Line
+	2525 2275 2525 2600
+Wire Wire Line
+	4075 2600 4825 2600
+Text Notes 4650 2975 0    50   ~ 10
+25kHz Triangle Wave Generation
+Wire Notes Line
+	11225 3025 475  3025
+Wire Wire Line
+	4825 1925 4825 2600
+$Comp
+L Device:C C202
+U 1 1 61084C95
+P 1025 1625
+F 0 "C202" H 1140 1671 50  0000 L CNN
+F 1 "100n" H 1140 1580 50  0000 L CNN
+F 2 "" H 1063 1475 50  0001 C CNN
+F 3 "~" H 1025 1625 50  0001 C CNN
+	1    1025 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 1325 1025 1425
+Wire Wire Line
+	1025 1475 1025 1425
+Connection ~ 1025 1425
+$Comp
+L Device:C C205
+U 1 1 61090BA0
+P 6950 1625
+F 0 "C205" H 7065 1671 50  0000 L CNN
+F 1 "100n" H 7065 1580 50  0000 L CNN
+F 2 "" H 6988 1475 50  0001 C CNN
+F 3 "~" H 6950 1625 50  0001 C CNN
+	1    6950 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1475 6950 1425
+Connection ~ 6950 1425
 $EndSCHEMATC
