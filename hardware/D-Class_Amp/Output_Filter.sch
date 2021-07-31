@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,100 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1450 1200 0    50   Input ~ 0
+SIG_IN
+Text HLabel 1450 2050 0    50   Input ~ 0
+~SIG_IN
+$Comp
+L Device:L L?
+U 1 1 61193FAD
+P 1850 1200
+F 0 "L?" V 2040 1200 50  0000 C CNN
+F 1 "L" V 1949 1200 50  0000 C CNN
+F 2 "" H 1850 1200 50  0001 C CNN
+F 3 "~" H 1850 1200 50  0001 C CNN
+	1    1850 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61195264
+P 1850 2050
+F 0 "L?" V 2040 2050 50  0000 C CNN
+F 1 "L" V 1949 2050 50  0000 C CNN
+F 2 "" H 1850 2050 50  0001 C CNN
+F 3 "~" H 1850 2050 50  0001 C CNN
+	1    1850 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 611955B4
+P 2350 1400
+F 0 "C?" H 2465 1446 50  0000 L CNN
+F 1 "C" H 2465 1355 50  0000 L CNN
+F 2 "" H 2388 1250 50  0001 C CNN
+F 3 "~" H 2350 1400 50  0001 C CNN
+	1    2350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61195DF7
+P 2350 2250
+F 0 "C?" H 2465 2296 50  0000 L CNN
+F 1 "C" H 2465 2205 50  0000 L CNN
+F 2 "" H 2388 2100 50  0001 C CNN
+F 3 "~" H 2350 2250 50  0001 C CNN
+	1    2350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1200 1700 1200
+Wire Wire Line
+	2000 1200 2350 1200
+Wire Wire Line
+	2350 1200 2350 1250
+Wire Wire Line
+	2350 1200 2700 1200
+Connection ~ 2350 1200
+Wire Wire Line
+	1450 2050 1700 2050
+Wire Wire Line
+	2000 2050 2350 2050
+Wire Wire Line
+	2350 2050 2350 2100
+Wire Wire Line
+	2350 2050 2700 2050
+Connection ~ 2350 2050
+$Comp
+L power:GND #PWR?
+U 1 1 611D879A
+P 2350 1625
+F 0 "#PWR?" H 2350 1375 50  0001 C CNN
+F 1 "GND" H 2355 1452 50  0000 C CNN
+F 2 "" H 2350 1625 50  0001 C CNN
+F 3 "" H 2350 1625 50  0001 C CNN
+	1    2350 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611D8B24
+P 2350 2475
+F 0 "#PWR?" H 2350 2225 50  0001 C CNN
+F 1 "GND" H 2355 2302 50  0000 C CNN
+F 2 "" H 2350 2475 50  0001 C CNN
+F 3 "" H 2350 2475 50  0001 C CNN
+	1    2350 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2475 2350 2400
+Wire Wire Line
+	2350 1625 2350 1550
+Text HLabel 2700 1200 2    50   Output ~ 0
+SPEAKER_OUT
+Text HLabel 2700 2050 2    50   Output ~ 0
+~SPEAKER_OUT
 $EndSCHEMATC
