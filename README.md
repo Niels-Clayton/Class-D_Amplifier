@@ -22,10 +22,15 @@ ECEN405 Class-D amplifier group project
 
 ---
 ## Power Stage
-
-
-
----
+- 2x IR21834PBF drivers
+  - V_offset: 600V max
+  - I_o+-: 1.4A/1.8A
+  - T_on/off: 180ns/220ns
+  - MT: 35ns
+  - V_cc: 10-20V (single)
+  - V_in: Vss+5V
+- 4x PHP23NQ11T,127 Fets
+  - 
 ## Output filter
 
 
