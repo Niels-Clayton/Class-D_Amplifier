@@ -30,7 +30,12 @@ ECEN405 Class-D amplifier group project
   - V_cc: 10-20V (single)
   - V_in: Vss+5V
 - 4x PHP23NQ11T,127 Fets
-  - 
+  - minimum BV_dss of 45V
+  - Actual: 110V
+  - Gate Charge Qg: 10nC
+  - Rdson: 49m
+
+---
 ## Output filter
 
 
