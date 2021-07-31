@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 5
 Title "D-Class Input Filter"
 Date "2021-07-31"
 Rev "1.0.0"
@@ -333,28 +333,6 @@ Connection ~ 7550 3600
 Wire Wire Line
 	8250 3600 8250 3550
 Connection ~ 8250 3600
-$Comp
-L power:GND #PWR?
-U 1 1 610999BC
-P 7550 3950
-F 0 "#PWR?" H 7550 3700 50  0001 C CNN
-F 1 "GND" H 7555 3777 50  0000 C CNN
-F 2 "" H 7550 3950 50  0001 C CNN
-F 3 "" H 7550 3950 50  0001 C CNN
-	1    7550 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61099C7B
-P 8250 3950
-F 0 "#PWR?" H 8250 3700 50  0001 C CNN
-F 1 "GND" H 8255 3777 50  0000 C CNN
-F 2 "" H 8250 3950 50  0001 C CNN
-F 3 "" H 8250 3950 50  0001 C CNN
-	1    8250 3950
-	1    0    0    -1  
-$EndComp
 Text HLabel 2600 3200 0    50   Input ~ 0
 SIG_IN
 Wire Wire Line
@@ -380,7 +358,7 @@ Wire Wire Line
 Connection ~ 3800 4650
 Text Label 3900 4650 0    50   ~ 0
 C_OUT
-Text HLabel 6650 4550 2    50   Input ~ 0
+Text HLabel 6650 4550 2    50   Output ~ 0
 FILT_OUT
 Wire Wire Line
 	6650 4550 6600 4550
@@ -442,6 +420,28 @@ F 1 "-3V3" H 7565 3723 50  0000 C CNN
 F 2 "" H 7550 3550 50  0001 C CNN
 F 3 "" H 7550 3550 50  0001 C CNN
 	1    7550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 61096DF3
+P 7550 3950
+F 0 "#PWR?" H 7550 3700 50  0001 C CNN
+F 1 "GNDS" H 7555 3777 50  0000 C CNN
+F 2 "" H 7550 3950 50  0001 C CNN
+F 3 "" H 7550 3950 50  0001 C CNN
+	1    7550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 61097302
+P 8250 3950
+F 0 "#PWR?" H 8250 3700 50  0001 C CNN
+F 1 "GNDS" H 8255 3777 50  0000 C CNN
+F 2 "" H 8250 3950 50  0001 C CNN
+F 3 "" H 8250 3950 50  0001 C CNN
+	1    8250 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

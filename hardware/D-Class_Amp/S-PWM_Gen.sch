@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,372 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:Opamp_Dual_Generic U201
+U 1 1 6104BA3C
+P 3550 1850
+F 0 "U201" H 3550 1483 50  0000 C CNN
+F 1 "Opamp_Dual_Generic" H 3550 1574 50  0000 C CNN
+F 2 "" H 3550 1850 50  0001 C CNN
+F 3 "~" H 3550 1850 50  0001 C CNN
+	1    3550 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U201
+U 2 1 6104BF37
+P 4950 1950
+F 0 "U201" H 4950 1583 50  0000 C CNN
+F 1 "Opamp_Dual_Generic" H 4950 1674 50  0000 C CNN
+F 2 "" H 4950 1950 50  0001 C CNN
+F 3 "~" H 4950 1950 50  0001 C CNN
+	2    4950 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C203
+U 1 1 610546D1
+P 4950 1350
+F 0 "C203" V 4698 1350 50  0000 C CNN
+F 1 "15n 16V" V 4789 1350 50  0000 C CNN
+F 2 "" H 4988 1200 50  0001 C CNN
+F 3 "~" H 4950 1350 50  0001 C CNN
+	1    4950 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R202
+U 1 1 61054D4F
+P 3550 2300
+F 0 "R202" V 3343 2300 50  0000 C CNN
+F 1 "10K" V 3434 2300 50  0000 C CNN
+F 2 "" V 3480 2300 50  0001 C CNN
+F 3 "~" H 3550 2300 50  0001 C CNN
+	1    3550 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 61055E03
+P 4250 2550
+F 0 "R201" V 4043 2550 50  0000 C CNN
+F 1 "6.8k" V 4134 2550 50  0000 C CNN
+F 2 "" V 4180 2550 50  0001 C CNN
+F 3 "~" H 4250 2550 50  0001 C CNN
+	1    4250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R203
+U 1 1 610560D6
+P 4250 1850
+F 0 "R203" V 4043 1850 50  0000 C CNN
+F 1 "1k" V 4134 1850 50  0000 C CNN
+F 2 "" V 4180 1850 50  0001 C CNN
+F 3 "~" H 4250 1850 50  0001 C CNN
+	1    4250 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 1850 4000 1850
+Wire Wire Line
+	4400 1850 4500 1850
+Wire Wire Line
+	3700 2300 4000 2300
+Wire Wire Line
+	4000 2300 4000 1850
+Connection ~ 4000 1850
+Wire Wire Line
+	4000 1850 4100 1850
+Wire Wire Line
+	3400 2300 3100 2300
+Wire Wire Line
+	3100 2300 3100 1950
+Wire Wire Line
+	3100 1950 3250 1950
+Wire Wire Line
+	4100 2550 3100 2550
+Wire Wire Line
+	3100 2550 3100 2300
+Connection ~ 3100 2300
+Wire Wire Line
+	4400 2550 5400 2550
+Wire Wire Line
+	5250 1950 5400 1950
+Wire Wire Line
+	5400 1950 5400 2550
+$Comp
+L power:GNDS #PWR?
+U 1 1 61064912
+P 2900 1850
+F 0 "#PWR?" H 2900 1600 50  0001 C CNN
+F 1 "GNDS" H 2905 1677 50  0000 C CNN
+F 2 "" H 2900 1850 50  0001 C CNN
+F 3 "" H 2900 1850 50  0001 C CNN
+	1    2900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1750 2900 1750
+Wire Wire Line
+	2900 1750 2900 1850
+$Comp
+L power:GNDS #PWR?
+U 1 1 61065BCC
+P 4550 2150
+F 0 "#PWR?" H 4550 1900 50  0001 C CNN
+F 1 "GNDS" H 4555 1977 50  0000 C CNN
+F 2 "" H 4550 2150 50  0001 C CNN
+F 3 "" H 4550 2150 50  0001 C CNN
+	1    4550 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2150 4550 2050
+Wire Wire Line
+	4550 2050 4650 2050
+Wire Wire Line
+	4800 1350 4500 1350
+Wire Wire Line
+	4500 1350 4500 1850
+Connection ~ 4500 1850
+Wire Wire Line
+	4500 1850 4650 1850
+Wire Wire Line
+	5100 1350 5400 1350
+Wire Wire Line
+	5400 1350 5400 1950
+Connection ~ 5400 1950
+$Comp
+L Device:C C201
+U 1 1 610B8642
+P 2300 1650
+F 0 "C201" H 2415 1696 50  0000 L CNN
+F 1 "100n" H 2415 1605 50  0000 L CNN
+F 2 "" H 2338 1500 50  0001 C CNN
+F 3 "~" H 2300 1650 50  0001 C CNN
+	1    2300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U201
+U 3 1 6104C970
+P 1950 1550
+F 0 "U201" V 1600 1400 50  0000 C CNN
+F 1 "Opamp_Dual_Generic" V 1700 1400 50  0000 C CNN
+F 2 "" H 1950 1550 50  0001 C CNN
+F 3 "~" H 1950 1550 50  0001 C CNN
+	3    1950 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 1500 2300 1450
+Wire Wire Line
+	2250 1450 2300 1450
+Wire Wire Line
+	1600 1450 1650 1450
+$Comp
+L power:+5V #PWR?
+U 1 1 610CCDDC
+P 2300 1350
+F 0 "#PWR?" H 2300 1200 50  0001 C CNN
+F 1 "+5V" H 2315 1523 50  0000 C CNN
+F 2 "" H 2300 1350 50  0001 C CNN
+F 3 "" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1350 2300 1450
+Connection ~ 2300 1450
+$Comp
+L power:GNDS #PWR?
+U 1 1 610B700C
+P 2300 1800
+F 0 "#PWR?" H 2300 1550 50  0001 C CNN
+F 1 "GNDS" H 2305 1627 50  0000 C CNN
+F 2 "" H 2300 1800 50  0001 C CNN
+F 3 "" H 2300 1800 50  0001 C CNN
+	1    2300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 610B6C70
+P 1600 1800
+F 0 "#PWR?" H 1600 1550 50  0001 C CNN
+F 1 "GNDS" H 1605 1627 50  0000 C CNN
+F 2 "" H 1600 1800 50  0001 C CNN
+F 3 "" H 1600 1800 50  0001 C CNN
+	1    1600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1800 1600 1450
+Wire Wire Line
+	5400 1950 5900 1950
+Text Label 5900 1950 2    50   ~ 0
+sig_triangle
+Text HLabel 9350 1400 2    50   Output ~ 0
+S-PWM
+Text HLabel 9350 2400 2    50   Output ~ 0
+~S-PWM
+$Comp
+L Device:Opamp_Dual_Generic U202
+U 1 1 610E84D1
+P 8500 1400
+F 0 "U202" H 8500 1033 50  0000 C CNN
+F 1 "Comparator_Dual_Generic" H 8500 1124 50  0000 C CNN
+F 2 "" H 8500 1400 50  0001 C CNN
+F 3 "~" H 8500 1400 50  0001 C CNN
+	1    8500 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U202
+U 2 1 610E8A2F
+P 8500 2400
+F 0 "U202" H 8500 2767 50  0000 C CNN
+F 1 "Comparator_Dual_Generic" H 8500 2676 50  0000 C CNN
+F 2 "" H 8500 2400 50  0001 C CNN
+F 3 "~" H 8500 2400 50  0001 C CNN
+	2    8500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C202
+U 1 1 610E9B40
+P 7400 1650
+F 0 "C202" H 7515 1696 50  0000 L CNN
+F 1 "100n" H 7515 1605 50  0000 L CNN
+F 2 "" H 7438 1500 50  0001 C CNN
+F 3 "~" H 7400 1650 50  0001 C CNN
+	1    7400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U202
+U 3 1 610E9B4A
+P 7050 1550
+F 0 "U202" V 6700 1550 50  0000 C CNN
+F 1 "Comparator_Dual_Generic" V 6800 1300 50  0000 C CNN
+F 2 "" H 7050 1550 50  0001 C CNN
+F 3 "~" H 7050 1550 50  0001 C CNN
+	3    7050 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 1500 7400 1450
+Wire Wire Line
+	7350 1450 7400 1450
+Wire Wire Line
+	6700 1450 6750 1450
+$Comp
+L power:+5V #PWR?
+U 1 1 610E9B57
+P 7400 1350
+F 0 "#PWR?" H 7400 1200 50  0001 C CNN
+F 1 "+5V" H 7415 1523 50  0000 C CNN
+F 2 "" H 7400 1350 50  0001 C CNN
+F 3 "" H 7400 1350 50  0001 C CNN
+	1    7400 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1350 7400 1450
+Connection ~ 7400 1450
+$Comp
+L power:GNDS #PWR?
+U 1 1 610E9B63
+P 7400 1800
+F 0 "#PWR?" H 7400 1550 50  0001 C CNN
+F 1 "GNDS" H 7405 1627 50  0000 C CNN
+F 2 "" H 7400 1800 50  0001 C CNN
+F 3 "" H 7400 1800 50  0001 C CNN
+	1    7400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 610E9B6D
+P 6700 1800
+F 0 "#PWR?" H 6700 1550 50  0001 C CNN
+F 1 "GNDS" H 6705 1627 50  0000 C CNN
+F 2 "" H 6700 1800 50  0001 C CNN
+F 3 "" H 6700 1800 50  0001 C CNN
+	1    6700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1800 6700 1450
+Text HLabel 8200 2300 0    50   Input ~ 0
+SIG_IN
+Text HLabel 8200 1300 0    50   Input ~ 0
+SIG_IN
+Text Label 8200 1500 2    50   ~ 0
+sig_triangle
+Text Label 8200 2500 2    50   ~ 0
+sig_triangle
+Wire Wire Line
+	8800 1400 9100 1400
+$Comp
+L Device:R R204
+U 1 1 6112AEF0
+P 9100 1150
+F 0 "R204" H 9170 1196 50  0000 L CNN
+F 1 "10k" H 9170 1105 50  0000 L CNN
+F 2 "" V 9030 1150 50  0001 C CNN
+F 3 "~" H 9100 1150 50  0001 C CNN
+	1    9100 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1300 9100 1400
+Connection ~ 9100 1400
+Wire Wire Line
+	9100 1400 9350 1400
+$Comp
+L power:+5V #PWR?
+U 1 1 61133A73
+P 9100 900
+F 0 "#PWR?" H 9100 750 50  0001 C CNN
+F 1 "+5V" H 9115 1073 50  0000 C CNN
+F 2 "" H 9100 900 50  0001 C CNN
+F 3 "" H 9100 900 50  0001 C CNN
+	1    9100 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 900  9100 1000
+Wire Wire Line
+	8800 2400 9100 2400
+$Comp
+L Device:R R205
+U 1 1 61138A41
+P 9100 2150
+F 0 "R205" H 9170 2196 50  0000 L CNN
+F 1 "10k" H 9170 2105 50  0000 L CNN
+F 2 "" V 9030 2150 50  0001 C CNN
+F 3 "~" H 9100 2150 50  0001 C CNN
+	1    9100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2300 9100 2400
+Connection ~ 9100 2400
+Wire Wire Line
+	9100 2400 9350 2400
+$Comp
+L power:+5V #PWR?
+U 1 1 61138A4E
+P 9100 1900
+F 0 "#PWR?" H 9100 1750 50  0001 C CNN
+F 1 "+5V" H 9115 2073 50  0000 C CNN
+F 2 "" H 9100 1900 50  0001 C CNN
+F 3 "" H 9100 1900 50  0001 C CNN
+	1    9100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1900 9100 2000
 $EndSCHEMATC
