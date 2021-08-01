@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 5 5
 Title "S-PWM Generator "
 Date ""
 Rev ""
@@ -382,8 +382,6 @@ F 3 "" H 6950 1325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 1325 6950 1425
-Text Notes 9450 2975 0    50   ~ 10
-S-PWM Inverting and Non-inverting outputs
 Wire Notes Line
 	6300 3025 6300 475 
 $Comp
@@ -417,7 +415,7 @@ Wire Wire Line
 	2525 2275 2525 2600
 Wire Wire Line
 	4075 2600 4825 2600
-Text Notes 4650 2975 0    50   ~ 10
+Text Notes 4650 2975 0    50   ~ 0
 25kHz Triangle Wave Generation
 Wire Notes Line
 	11225 3025 475  3025
@@ -453,4 +451,6 @@ $EndComp
 Wire Wire Line
 	6950 1475 6950 1425
 Connection ~ 6950 1425
+Text Notes 9450 2975 0    50   ~ 0
+S-PWM Inverting and Non-inverting outputs
 $EndSCHEMATC
