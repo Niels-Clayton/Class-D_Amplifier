@@ -1,4 +1,4 @@
-Circuit: * Z:\home\niels\Desktop\Uni_Notes\Tri 2\ECEN405\Class-D_Amplifier\spice_sim\Input_Stage\Input_Stage.asc
+Circuit: * C:\users\wolfenick\My Documents\University\ECEN 405\Class-D_Amplifier\spice_sim\Input_Stage\Input_Stage.asc
 
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -26,68 +26,110 @@ Gmin stepping failed
 
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
-Source Step = 8.04924%
-Source Step = 8.52273%
-Source Step = 8.99621%
-Source Step = 9.4697%
-Source Step = 9.94318%
-vernier = 0.0234375
-Source Step = 10.4403%
-Source Step = 11.1506%
-Source Step = 11.8608%
-Source Step = 12.571%
-Source Step = 13.2813%
-Source Step = 13.9915%
-vernier = 0.0351563
-Source Step = 15.0568%
-Source Step = 16.1222%
-Source Step = 17.1875%
-Source Step = 18.2528%
-Source Step = 19.3182%
-vernier = 0.0527344
-Source Step = 20.8629%
-Source Step = 22.4609%
-Source Step = 24.0589%
-Source Step = 25.657%
-Source Step = 27.255%
-vernier = 0.0791016
-Source Step = 29.4922%
-Source Step = 31.8892%
-Source Step = 34.2862%
-Source Step = 36.6832%
-Source Step = 39.0803%
-vernier = 0.118652
-Source Step = 42.3162%
-Source Step = 45.9118%
-Source Step = 49.5073%
-Source Step = 53.1028%
-Source Step = 56.6983%
-vernier = 0.177979
-Source Step = 61.3725%
-Source Step = 66.7658%
-Source Step = 72.1591%
-Source Step = 77.5524%
-Source Step = 82.9457%
-vernier = 0.266968
-Source Step = 89.6873%
-Source Step = 97.7772%
+Source Step = 12.1212%
+Source Step = 13.6482%
+Source Step = 13.6778%
+Source Step = 13.7074%
+Source Step = 13.737%
+Source Step = 13.7666%
+vernier = 0.00146484
+Source Step = 13.7976%
+Source Step = 13.842%
+Source Step = 13.8864%
+Source Step = 13.9308%
+Source Step = 13.9752%
+Source Step = 14.0196%
+vernier = 0.00219727
+Source Step = 14.0862%
+Source Step = 14.1528%
+Source Step = 14.2193%
+Source Step = 14.2859%
+Source Step = 14.3525%
+vernier = 0.0032959
+Source Step = 14.4491%
+Source Step = 14.5489%
+Source Step = 14.6488%
+Source Step = 14.7487%
+Source Step = 14.8486%
+vernier = 0.00494385
+Source Step = 14.9884%
+Source Step = 15.1382%
+Source Step = 15.288%
+Source Step = 15.4378%
+Source Step = 15.5876%
+vernier = 0.00741577
+Source Step = 15.7899%
+Source Step = 16.0146%
+Source Step = 16.2393%
+Source Step = 16.464%
+Source Step = 16.6888%
+vernier = 0.0111237
+Source Step = 16.9809%
+Source Step = 17.318%
+Source Step = 17.6551%
+Source Step = 17.9921%
+Source Step = 18.3292%
+vernier = 0.0166855
+Source Step = 18.7506%
+Source Step = 19.2562%
+Source Step = 19.7618%
+Source Step = 20.2674%
+Source Step = 20.7731%
+vernier = 0.0250282
+Source Step = 21.3798%
+Source Step = 22.1382%
+Source Step = 22.8967%
+Source Step = 23.6551%
+Source Step = 24.4135%
+vernier = 0.0375423
+Source Step = 25.2857%
+Source Step = 26.4234%
+Source Step = 27.561%
+Source Step = 28.6987%
+Source Step = 29.8363%
+vernier = 0.0563135
+Source Step = 31.0877%
+Source Step = 32.7942%
+Source Step = 34.5007%
+Source Step = 36.2071%
+Source Step = 37.9136%
+vernier = 0.0844703
+Source Step = 39.7054%
+Source Step = 42.2651%
+Source Step = 44.8248%
+Source Step = 47.3845%
+Source Step = 49.9442%
+Source Step = 52.5039%
+vernier = 0.126705
+Source Step = 56.3435%
+Source Step = 60.183%
+Source Step = 64.0226%
+Source Step = 67.8622%
+Source Step = 71.7017%
+vernier = 0.190058
+Source Step = 77.2691%
+Source Step = 83.0284%
+Source Step = 88.7877%
+Source Step = 94.5471%
+Source Step = 100%
+vernier = 0.285087
 Source stepping succeeded in finding the operating point.
 
 
-Date: Sat Jul 31 17:32:12 2021
-Total elapsed time: 0.873 seconds.
+Date: Sun Aug 01 13:06:56 2021
+Total elapsed time: 1.248 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 3685
+totiter = 5722
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 244
-fillins = 337
+matrix size = 245
+fillins = 422
 solver = Normal
-Matrix Compiler1:    2049 opcodes
-Matrix Compiler2: 28.86 KB object code size  5.0/5.7/[2.0]
+Matrix Compiler1:    2537 opcodes
+Matrix Compiler2: 30.42 KB object code size  5.1/6.5/[2.2]
 
