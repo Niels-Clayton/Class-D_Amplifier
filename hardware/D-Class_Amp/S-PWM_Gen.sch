@@ -170,32 +170,8 @@ Wire Wire Line
 	4825 1925 5325 1925
 Text Label 5325 1925 2    50   ~ 0
 sig_triangle
-Text HLabel 9600 1375 2    50   Output ~ 0
-S-PWM
 Text HLabel 9600 2375 2    50   Output ~ 0
 ~S-PWM
-$Comp
-L Device:Opamp_Dual_Generic U502
-U 1 1 610E84D1
-P 8750 1375
-F 0 "U502" H 8750 1008 50  0000 C CNN
-F 1 "Comparator_Dual_Generic" H 8750 1099 50  0000 C CNN
-F 2 "" H 8750 1375 50  0001 C CNN
-F 3 "~" H 8750 1375 50  0001 C CNN
-	1    8750 1375
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Opamp_Dual_Generic U502
-U 2 1 610E8A2F
-P 8750 2375
-F 0 "U502" H 8750 2742 50  0000 C CNN
-F 1 "Comparator_Dual_Generic" H 8750 2651 50  0000 C CNN
-F 2 "" H 8750 2375 50  0001 C CNN
-F 3 "~" H 8750 2375 50  0001 C CNN
-	2    8750 2375
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C503
 U 1 1 610E9B40
@@ -206,17 +182,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7688 1475 50  0
 F 3 "~" H 7650 1625 50  0001 C CNN
 	1    7650 1625
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Opamp_Dual_Generic U502
-U 3 1 610E9B4A
-P 7300 1525
-F 0 "U502" V 6600 1525 50  0000 C CNN
-F 1 "Comparator_Dual_Generic" V 6700 1525 50  0000 C CNN
-F 2 "" H 7300 1525 50  0001 C CNN
-F 3 "~" H 7300 1525 50  0001 C CNN
-	3    7300 1525
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7650 1475 7650 1425
@@ -262,43 +227,8 @@ F 3 "" H 6950 1775 50  0001 C CNN
 $EndComp
 Text HLabel 8450 2275 0    50   Input ~ 0
 SIG_IN
-Text HLabel 8450 1275 0    50   Input ~ 0
-SIG_IN
-Text Label 8450 1475 2    50   ~ 0
-sig_triangle
 Text Label 8450 2475 2    50   ~ 0
 sig_triangle
-Wire Wire Line
-	9050 1375 9350 1375
-$Comp
-L Device:R R505
-U 1 1 6112AEF0
-P 9350 1125
-F 0 "R505" H 9420 1171 50  0000 L CNN
-F 1 "10k" H 9420 1080 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9280 1125 50  0001 C CNN
-F 3 "~" H 9350 1125 50  0001 C CNN
-	1    9350 1125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 1275 9350 1375
-Connection ~ 9350 1375
-Wire Wire Line
-	9350 1375 9600 1375
-$Comp
-L power:+5V #PWR0509
-U 1 1 61133A73
-P 9350 875
-F 0 "#PWR0509" H 9350 725 50  0001 C CNN
-F 1 "+5V" H 9365 1048 50  0000 C CNN
-F 2 "" H 9350 875 50  0001 C CNN
-F 3 "" H 9350 875 50  0001 C CNN
-	1    9350 875 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 875  9350 975 
 Wire Wire Line
 	9050 2375 9350 2375
 $Comp
@@ -403,4 +333,74 @@ Wire Wire Line
 	4025 1975 4025 2025
 Wire Wire Line
 	4025 2025 4075 2025
+$Comp
+L Comparator:LM2903 U502
+U 3 1 610EF685
+P 7300 1525
+F 0 "U502" V 6975 1525 50  0000 C CNN
+F 1 "LM2903" V 7066 1525 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 1525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 7300 1525 50  0001 C CNN
+	3    7300 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L Comparator:LM2903 U502
+U 2 1 610F0244
+P 8750 2375
+F 0 "U502" H 8750 2742 50  0000 C CNN
+F 1 "LM2903" H 8750 2651 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8750 2375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 8750 2375 50  0001 C CNN
+	2    8750 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM2903 U502
+U 1 1 610ED916
+P 8750 1375
+F 0 "U502" H 8750 1008 50  0000 C CNN
+F 1 "LM2903" H 8750 1099 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8750 1375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 8750 1375 50  0001 C CNN
+	1    8750 1375
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9350 875  9350 975 
+$Comp
+L power:+5V #PWR0509
+U 1 1 61133A73
+P 9350 875
+F 0 "#PWR0509" H 9350 725 50  0001 C CNN
+F 1 "+5V" H 9365 1048 50  0000 C CNN
+F 2 "" H 9350 875 50  0001 C CNN
+F 3 "" H 9350 875 50  0001 C CNN
+	1    9350 875 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1375 9600 1375
+Connection ~ 9350 1375
+Wire Wire Line
+	9350 1275 9350 1375
+$Comp
+L Device:R R505
+U 1 1 6112AEF0
+P 9350 1125
+F 0 "R505" H 9420 1171 50  0000 L CNN
+F 1 "10k" H 9420 1080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9280 1125 50  0001 C CNN
+F 3 "~" H 9350 1125 50  0001 C CNN
+	1    9350 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1375 9350 1375
+Text Label 8450 1475 2    50   ~ 0
+sig_triangle
+Text HLabel 8450 1275 0    50   Input ~ 0
+SIG_IN
+Text HLabel 9600 1375 2    50   Output ~ 0
+S-PWM
 $EndSCHEMATC
