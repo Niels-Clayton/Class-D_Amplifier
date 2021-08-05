@@ -37,5 +37,27 @@ ECEN405 Class-D amplifier group project
 
 ---
 ## Output filter
+Signal freq max of 200Hz, Switching frequency of ~25kHz
+Place corner frequency of filter at 2kHz (decade centred)
+mes
 
 
+https://datasheets.maximintegrated.com/en/ds/MAX4295.pdf
+
+Figure 4c. Alternate Balanced 2-Pole Filter
+
+Balanced 2-Pole (Figure 4b):
+A  balanced  2-pole  filter  does  not  have  the  common-
+mode swing problem of the single-ended filter.
+C = 2 / (√2 ✕ RL ✕ ωo), L = (√2 ✕ RL)/(2 ✕ ωo); choosing
+fo =  30kHz  and  RL =  4Ω,  C1a  =  C1b  =  2.0μF,  L1a  =
+L1b = 15μH.
+A single capacitor connected across RL, with a value of
+CL = 1/(√2 ✕ RL ✕ ωo), can be used in place of C1a and
+C1b.  However,  the  configuration  as  shown  gives  an
+improved  rejection  to  common-mode  signal  compo-
+nents  of  OUT+_  and  OUT-_.    If  the  single  capacitor
+scheme is used, additional capacitors (Ca and Cb) can
+be  added  from  each  side  of  RL,  providing  a  high-fre-
+quency  short  to  ground  (Figure  4c).  These  capacitors
+should be approximately 0.2 ✕ CL.
