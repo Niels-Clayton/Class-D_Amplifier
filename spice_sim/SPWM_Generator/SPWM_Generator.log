@@ -1,34 +1,55 @@
 Circuit: * Z:\home\niels\Desktop\Uni_Notes\Tri 2\ECEN405\Class-D_Amplifier\spice_sim\SPWM_Generator\SPWM_Generator.asc
 
-Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u2:4": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u2:3": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u2:2": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u2:1": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u1:4": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u1:3": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u1:2": Length shorter than recommended for a level 2 MOSFET.
-Instance "m:u1:1": Length shorter than recommended for a level 2 MOSFET.
+u1:c_cc3: both pins shorted together -- ignoring.
+u2:c_cc3: both pins shorted together -- ignoring.
 Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 5.55912e-005 to 5.55932e-005
+Heightened Def Con from 0.000286012 to 0.000286012
+Heightened Def Con from 0.000656631 to 0.000656643
+Heightened Def Con from 0.00102738 to 0.00102738
+Heightened Def Con from 0.00116764 to 0.00116764
+Heightened Def Con from 0.00125774 to 0.00125776
+Heightened Def Con from 0.00140809 to 0.00140809
+Heightened Def Con from 0.00145818 to 0.00145819
+Heightened Def Con from 0.00153834 to 0.00153834
+Heightened Def Con from 0.00156839 to 0.00156839
+Heightened Def Con from 0.00174872 to 0.00174872
+Heightened Def Con from 0.00189893 to 0.00189894
+Heightened Def Con from 0.00204921 to 0.00204921
+Heightened Def Con from 0.00205923 to 0.00205924
+Heightened Def Con from 0.00207926 to 0.00207928
+Heightened Def Con from 0.00208935 to 0.00208935
+Heightened Def Con from 0.00225881 to 0.00225881
+Heightened Def Con from 0.00259028 to 0.00259028
+Heightened Def Con from 0.00290078 to 0.0029008
+Heightened Def Con from 0.00294086 to 0.00294086
+Heightened Def Con from 0.00308112 to 0.00308113
+Heightened Def Con from 0.00331161 to 0.00331161
+Heightened Def Con from 0.00341179 to 0.00341179
+Heightened Def Con from 0.00366226 to 0.00366226
+Heightened Def Con from 0.00417234 to 0.00417234
+Heightened Def Con from 0.00436348 to 0.00436349
+Heightened Def Con from 0.00437356 to 0.00437357
+Heightened Def Con from 0.00438352 to 0.00438353
+Heightened Def Con from 0.00446373 to 0.00446374
+Heightened Def Con from 0.00473423 to 0.00473423
+Heightened Def Con from 0.00486447 to 0.00486448
 
-Date: Wed Aug 04 22:40:22 2021
-Total elapsed time: 12.846 seconds.
+Date: Sun Aug 08 17:27:52 2021
+Total elapsed time: 16.322 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 583394
-traniter = 583364
-tranpoints = 178978
-accept = 126560
-rejected = 52418
-matrix size = 102
-fillins = 32
+totiter = 507353
+traniter = 507323
+tranpoints = 147848
+accept = 106543
+rejected = 41336
+matrix size = 256
+fillins = 259
 solver = Normal
-Thread vector: 22.9/13.3[3] 4.5/6.3[1] 5.4/4.0[3] 0.6/1.8[1]  2592/500
-Matrix Compiler1: 6.83 KB object code size  2.0/1.1/[0.5]
-Matrix Compiler2: 9.92 KB object code size  1.2/1.6/[0.6]
+Thread vector: 34.9/22.2[4] 9.6/5.7[4] 12.8/5.5[4] 1.6/2.7[1]  2592/500
+Matrix Compiler1: 23.32 KB object code size  12.7/7.7/[2.7]
+Matrix Compiler2: 24.00 KB object code size  5.4/8.5/[1.9]
 
