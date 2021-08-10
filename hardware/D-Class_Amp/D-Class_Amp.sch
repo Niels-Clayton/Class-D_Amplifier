@@ -110,10 +110,10 @@ Wire Wire Line
 Wire Wire Line
 	1575 1325 1575 1400
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP101
 U 1 1 61126C37
 P 5025 825
-F 0 "TP?" H 5083 943 50  0000 L CNN
+F 0 "TP101" H 5083 943 50  0000 L CNN
 F 1 "Audio In" H 5083 852 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5225 825 50  0001 C CNN
 F 3 "~" H 5225 825 50  0001 C CNN
@@ -121,10 +121,10 @@ F 3 "~" H 5225 825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP102
 U 1 1 6112780B
 P 6275 825
-F 0 "TP?" H 6333 943 50  0000 L CNN
+F 0 "TP102" H 6333 943 50  0000 L CNN
 F 1 "Input Filter" H 6333 852 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6475 825 50  0001 C CNN
 F 3 "~" H 6475 825 50  0001 C CNN
@@ -165,21 +165,10 @@ F 3 "~" H 10565 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
-U 1 1 6112B1A8
-P 7475 800
-F 0 "TP?" H 7300 925 50  0000 L CNN
-F 1 "S-PWM" H 7150 825 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7675 800 50  0001 C CNN
-F 3 "~" H 7675 800 50  0001 C CNN
-	1    7475 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP104
 U 1 1 61129DBB
 P 7625 800
-F 0 "TP?" H 7683 924 50  0000 L CNN
+F 0 "TP104" H 7683 924 50  0000 L CNN
 F 1 "~S-PWM" H 7683 826 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7825 800 50  0001 C CNN
 F 3 "~" H 7825 800 50  0001 C CNN
@@ -187,10 +176,10 @@ F 3 "~" H 7825 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP105
 U 1 1 6112D71A
 P 8675 800
-F 0 "TP?" H 8500 925 50  0000 L CNN
+F 0 "TP105" H 8600 900 50  0000 R CNN
 F 1 "P_Out" H 8400 825 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 8875 800 50  0001 C CNN
 F 3 "~" H 8875 800 50  0001 C CNN
@@ -198,10 +187,10 @@ F 3 "~" H 8875 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP106
 U 1 1 6112D764
 P 8825 800
-F 0 "TP?" H 8883 924 50  0000 L CNN
+F 0 "TP106" H 8883 924 50  0000 L CNN
 F 1 "~P_Out" H 8883 826 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9025 800 50  0001 C CNN
 F 3 "~" H 9025 800 50  0001 C CNN
@@ -253,22 +242,11 @@ Connection ~ 5025 1450
 Wire Wire Line
 	5025 1450 5225 1450
 $Comp
-L Connector:TestPoint TP?
-U 1 1 611372D5
-P 10025 800
-F 0 "TP?" H 9850 925 50  0000 L CNN
-F 1 "Speaker_Out" H 9550 825 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10225 800 50  0001 C CNN
-F 3 "~" H 10225 800 50  0001 C CNN
-	1    10025 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP108
 U 1 1 6113731F
 P 10175 800
-F 0 "TP?" H 10233 918 50  0000 L CNN
-F 1 "TestPoint" H 10233 827 50  0000 L CNN
+F 0 "TP108" H 10233 918 50  0000 L CNN
+F 1 "~Speaker_Out" H 10233 827 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10375 800 50  0001 C CNN
 F 3 "~" H 10375 800 50  0001 C CNN
 	1    10175 800 
@@ -284,4 +262,26 @@ Wire Wire Line
 Connection ~ 10175 1550
 Wire Wire Line
 	10175 1550 10275 1550
+$Comp
+L Connector:TestPoint TP103
+U 1 1 6112B1A8
+P 7475 800
+F 0 "TP103" H 7400 900 50  0000 R CNN
+F 1 "S-PWM" H 7150 825 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7675 800 50  0001 C CNN
+F 3 "~" H 7675 800 50  0001 C CNN
+	1    7475 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP107
+U 1 1 611372D5
+P 10025 800
+F 0 "TP107" H 9950 900 50  0000 R CNN
+F 1 "Speaker_Out" H 9550 825 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10225 800 50  0001 C CNN
+F 3 "~" H 10225 800 50  0001 C CNN
+	1    10025 800 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

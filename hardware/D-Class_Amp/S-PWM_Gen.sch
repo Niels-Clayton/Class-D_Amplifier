@@ -367,22 +367,10 @@ SIG_IN
 Text HLabel 9600 1375 2    50   Output ~ 0
 S-PWM
 $Comp
-L Device:R_Variable R?
-U 1 1 6114CBC1
-P 1225 2625
-F 0 "R?" V 1025 2625 50  0000 C CNN
-F 1 "1k" V 1125 2625 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" V 1155 2625 50  0001 C CNN
-F 3 "~" H 1225 2625 50  0001 C CNN
-F 4 "CT6EP502" V 1225 2625 50  0001 C CNN "Part Number"
-	1    1225 2625
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_POT RV?
+L Device:R_POT RV301
 U 1 1 6114E136
 P 3450 2725
-F 0 "RV?" V 3335 2725 50  0000 C CNN
+F 0 "RV301" V 3335 2725 50  0000 C CNN
 F 1 "5k" V 3244 2725 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" H 3450 2725 50  0001 C CNN
 F 3 "~" H 3450 2725 50  0001 C CNN
@@ -399,10 +387,10 @@ Wire Wire Line
 Connection ~ 2525 2275
 NoConn ~ 3300 2725
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV302
 U 1 1 611660D9
 P 3800 2050
-F 0 "RV?" V 3685 2050 50  0000 C CNN
+F 0 "RV302" V 3685 2050 50  0000 C CNN
 F 1 "1k" V 3594 2050 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" H 3800 2050 50  0001 C CNN
 F 3 "~" H 3800 2050 50  0001 C CNN

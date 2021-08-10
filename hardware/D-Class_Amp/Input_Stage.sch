@@ -483,26 +483,9 @@ F 3 "~" H 3650 4800 50  0001 C CNN
 	1    3650 4800
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R R208
-U 1 1 610F6964
-P 3650 4400
-F 0 "R208" H 3580 4354 50  0000 R CNN
-F 1 "39k" H 3580 4445 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3580 4400 50  0001 C CNN
-F 3 "~" H 3650 4400 50  0001 C CNN
-	1    3650 4400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 4600 3650 4550
 Connection ~ 3650 4600
 Wire Wire Line
 	3650 4600 3750 4600
-Wire Wire Line
-	3650 4250 3650 4200
-Wire Wire Line
-	3650 4200 2950 4200
 Wire Wire Line
 	2950 4200 2950 4500
 Wire Wire Line
@@ -519,5 +502,55 @@ F 3 "" H 3650 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2250 3200 2600 3200
+	2250 3200 2550 3200
+$Comp
+L Device:R_POT RV201
+U 1 1 61134898
+P 3650 4400
+F 0 "RV201" H 3580 4446 50  0000 R CNN
+F 1 "50k" H 3580 4355 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" H 3650 4400 50  0001 C CNN
+F 3 "~" H 3650 4400 50  0001 C CNN
+	1    3650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4600 3650 4550
+NoConn ~ 3650 4250
+Wire Wire Line
+	3850 4200 3850 4400
+Wire Wire Line
+	3850 4400 3800 4400
+Wire Wire Line
+	2950 4200 3850 4200
+$Comp
+L Connector:TestPoint TP202
+U 1 1 61142C7C
+P 3850 4150
+F 0 "TP202" H 3908 4268 50  0000 L CNN
+F 1 "Gain_Stage" H 3908 4177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4050 4150 50  0001 C CNN
+F 3 "~" H 4050 4150 50  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4200 3850 4150
+Connection ~ 3850 4200
+$Comp
+L Connector:TestPoint TP201
+U 1 1 611488F4
+P 2550 2900
+F 0 "TP201" H 2608 3018 50  0000 L CNN
+F 1 "DC_Offset" H 2600 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 2750 2900 50  0001 C CNN
+F 3 "~" H 2750 2900 50  0001 C CNN
+	1    2550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2900 2550 3200
+Connection ~ 2550 3200
+Wire Wire Line
+	2550 3200 2600 3200
 $EndSCHEMATC
