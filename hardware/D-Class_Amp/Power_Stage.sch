@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -152,7 +152,7 @@ U 1 1 6104F394
 P 5750 1800
 F 0 "Q302" H 6038 1846 50  0000 L CNN
 F 1 "PHP23NQ11T" H 6038 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5950 1900 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabD" H 5950 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1800 50  0001 C CNN
 	1    5750 1800
 	1    0    0    -1  
@@ -163,7 +163,7 @@ U 1 1 6104F024
 P 5750 1300
 F 0 "Q301" H 6038 1346 50  0000 L CNN
 F 1 "PHP23NQ11T" H 6038 1255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5950 1400 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 5950 1400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1300 50  0001 C CNN
 	1    5750 1300
 	1    0    0    -1  
@@ -209,7 +209,7 @@ U 1 1 610F221C
 P 8450 1300
 F 0 "Q303" H 8738 1346 50  0000 L CNN
 F 1 "PHP23NQ11T" H 8738 1255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8650 1400 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabD" H 8650 1400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1300 50  0001 C CNN
 	1    8450 1300
 	-1   0    0    -1  
@@ -220,7 +220,7 @@ U 1 1 610F2226
 P 8450 1800
 F 0 "Q304" H 8738 1846 50  0000 L CNN
 F 1 "PHP23NQ11T" H 8738 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8650 1900 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabD" H 8650 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1800 50  0001 C CNN
 	1    8450 1800
 	-1   0    0    -1  

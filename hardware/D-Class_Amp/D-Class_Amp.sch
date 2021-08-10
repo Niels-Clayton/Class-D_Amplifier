@@ -22,26 +22,6 @@ F2 "SIG_IN" I L 5225 1450 50
 F3 "FILT_OUT" O R 6075 1450 50 
 $EndSheet
 $Sheet
-S 7725 1150 850  600 
-U 610497A4
-F0 "Power_Stage" 50
-F1 "Power_Stage.sch" 50
-F2 "S-PWM" I L 7725 1350 50 
-F3 "~S-PWM" I L 7725 1550 50 
-F4 "P_OUT" O R 8575 1350 50 
-F5 "~P_OUT" O R 8575 1550 50 
-$EndSheet
-$Sheet
-S 8925 1150 1000 600 
-U 610497C9
-F0 "Output_Filter" 50
-F1 "Output_Filter.sch" 50
-F2 "SIG_IN" I L 8925 1350 50 
-F3 "~SIG_IN" I L 8925 1550 50 
-F4 "SPEAKER_OUT" O R 9925 1350 50 
-F5 "~SPEAKER_OUT" O R 9925 1550 50 
-$EndSheet
-$Sheet
 S 6475 1150 900  600 
 U 61049843
 F0 "S-PWM_Gen" 50
@@ -51,36 +31,11 @@ F3 "~S-PWM" O R 7375 1550 50
 F4 "SIG_IN" I L 6475 1450 50 
 $EndSheet
 Wire Wire Line
-	6075 1450 6475 1450
+	6075 1450 6275 1450
 Wire Wire Line
-	7375 1350 7725 1350
+	10275 1350 10275 1400
 Wire Wire Line
-	7375 1550 7725 1550
-$Comp
-L Device:Speaker LS101
-U 1 1 61193870
-P 10300 1400
-F 0 "LS101" H 10470 1396 50  0000 L CNN
-F 1 "Speaker" H 10470 1305 50  0000 L CNN
-F 2 "" H 10300 1200 50  0001 C CNN
-F 3 "~" H 10290 1350 50  0001 C CNN
-	1    10300 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8575 1350 8925 1350
-Wire Wire Line
-	9925 1350 10025 1350
-Wire Wire Line
-	10025 1350 10025 1400
-Wire Wire Line
-	10025 1400 10100 1400
-Wire Wire Line
-	9925 1550 10025 1550
-Wire Wire Line
-	10025 1550 10025 1500
-Wire Wire Line
-	10025 1500 10100 1500
+	10275 1550 10275 1500
 $Comp
 L Connector:AudioJack2 J101
 U 1 1 611DD9A4
@@ -93,7 +48,7 @@ F 3 "~" H 4550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 1450 5225 1450
+	4750 1450 5025 1450
 $Comp
 L power:GNDS #PWR0103
 U 1 1 611DE882
@@ -109,8 +64,6 @@ Wire Wire Line
 	4750 1550 4900 1550
 Wire Wire Line
 	4900 1550 4900 1700
-Wire Wire Line
-	8575 1550 8925 1550
 Wire Notes Line
 	4175 475  4175 1975
 Wire Notes Line
@@ -156,4 +109,179 @@ Wire Wire Line
 	1500 1325 1575 1325
 Wire Wire Line
 	1575 1325 1575 1400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61126C37
+P 5025 825
+F 0 "TP?" H 5083 943 50  0000 L CNN
+F 1 "Audio In" H 5083 852 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5225 825 50  0001 C CNN
+F 3 "~" H 5225 825 50  0001 C CNN
+	1    5025 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6112780B
+P 6275 825
+F 0 "TP?" H 6333 943 50  0000 L CNN
+F 1 "Input Filter" H 6333 852 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6475 825 50  0001 C CNN
+F 3 "~" H 6475 825 50  0001 C CNN
+	1    6275 825 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9925 1550 10175 1550
+Wire Wire Line
+	9925 1350 10025 1350
+Wire Wire Line
+	8575 1550 8825 1550
+Wire Wire Line
+	8575 1350 8675 1350
+$Sheet
+S 8925 1150 1000 600 
+U 610497C9
+F0 "Output_Filter" 50
+F1 "Output_Filter.sch" 50
+F2 "SIG_IN" I L 8925 1350 50 
+F3 "~SIG_IN" I L 8925 1550 50 
+F4 "SPEAKER_OUT" O R 9925 1350 50 
+F5 "~SPEAKER_OUT" O R 9925 1550 50 
+$EndSheet
+Wire Wire Line
+	10275 1500 10375 1500
+Wire Wire Line
+	10275 1400 10375 1400
+$Comp
+L Device:Speaker LS101
+U 1 1 61193870
+P 10575 1400
+F 0 "LS101" H 10745 1396 50  0000 L CNN
+F 1 "Speaker" H 10745 1305 50  0000 L CNN
+F 2 "" H 10575 1200 50  0001 C CNN
+F 3 "~" H 10565 1350 50  0001 C CNN
+	1    10575 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6112B1A8
+P 7475 800
+F 0 "TP?" H 7300 925 50  0000 L CNN
+F 1 "S-PWM" H 7150 825 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7675 800 50  0001 C CNN
+F 3 "~" H 7675 800 50  0001 C CNN
+	1    7475 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61129DBB
+P 7625 800
+F 0 "TP?" H 7683 924 50  0000 L CNN
+F 1 "~S-PWM" H 7683 826 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7825 800 50  0001 C CNN
+F 3 "~" H 7825 800 50  0001 C CNN
+	1    7625 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6112D71A
+P 8675 800
+F 0 "TP?" H 8500 925 50  0000 L CNN
+F 1 "P_Out" H 8400 825 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 8875 800 50  0001 C CNN
+F 3 "~" H 8875 800 50  0001 C CNN
+	1    8675 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6112D764
+P 8825 800
+F 0 "TP?" H 8883 924 50  0000 L CNN
+F 1 "~P_Out" H 8883 826 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9025 800 50  0001 C CNN
+F 3 "~" H 9025 800 50  0001 C CNN
+	1    8825 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 800  8675 1350
+Connection ~ 8675 1350
+Wire Wire Line
+	8675 1350 8925 1350
+Wire Wire Line
+	8825 800  8825 1550
+Connection ~ 8825 1550
+Wire Wire Line
+	8825 1550 8925 1550
+Wire Wire Line
+	7375 1350 7475 1350
+$Sheet
+S 7725 1150 850  600 
+U 610497A4
+F0 "Power_Stage" 50
+F1 "Power_Stage.sch" 50
+F2 "S-PWM" I L 7725 1350 50 
+F3 "~S-PWM" I L 7725 1550 50 
+F4 "P_OUT" O R 8575 1350 50 
+F5 "~P_OUT" O R 8575 1550 50 
+$EndSheet
+Wire Wire Line
+	7475 800  7475 1350
+Connection ~ 7475 1350
+Wire Wire Line
+	7475 1350 7725 1350
+Wire Wire Line
+	7625 800  7625 1550
+Wire Wire Line
+	7375 1550 7625 1550
+Connection ~ 7625 1550
+Wire Wire Line
+	7625 1550 7725 1550
+Wire Wire Line
+	6275 825  6275 1450
+Connection ~ 6275 1450
+Wire Wire Line
+	6275 1450 6475 1450
+Wire Wire Line
+	5025 825  5025 1450
+Connection ~ 5025 1450
+Wire Wire Line
+	5025 1450 5225 1450
+$Comp
+L Connector:TestPoint TP?
+U 1 1 611372D5
+P 10025 800
+F 0 "TP?" H 9850 925 50  0000 L CNN
+F 1 "Speaker_Out" H 9550 825 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10225 800 50  0001 C CNN
+F 3 "~" H 10225 800 50  0001 C CNN
+	1    10025 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6113731F
+P 10175 800
+F 0 "TP?" H 10233 918 50  0000 L CNN
+F 1 "TestPoint" H 10233 827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10375 800 50  0001 C CNN
+F 3 "~" H 10375 800 50  0001 C CNN
+	1    10175 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10025 800  10025 1350
+Wire Wire Line
+	10175 800  10175 1550
+Connection ~ 10025 1350
+Wire Wire Line
+	10025 1350 10275 1350
+Connection ~ 10175 1550
+Wire Wire Line
+	10175 1550 10275 1550
 $EndSCHEMATC

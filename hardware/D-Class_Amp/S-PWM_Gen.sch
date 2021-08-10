@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 3 5
 Title "S-PWM Generator "
 Date ""
 Rev ""
@@ -27,23 +27,23 @@ $EndComp
 $Comp
 L Device:Opamp_Dual_Generic U501
 U 2 1 6104BF37
-P 4375 1925
-F 0 "U501" H 4375 1558 50  0000 C CNN
-F 1 "MAX4016" H 4375 1649 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4375 1925 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4012-MAX4020.pdf" H 4375 1925 50  0001 C CNN
-	2    4375 1925
+P 4575 2150
+F 0 "U501" H 4575 1783 50  0000 C CNN
+F 1 "MAX4016" H 4575 1874 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4575 2150 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4012-MAX4020.pdf" H 4575 2150 50  0001 C CNN
+	2    4575 2150
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C502
 U 1 1 610546D1
-P 4375 1325
-F 0 "C502" V 4123 1325 50  0000 C CNN
-F 1 "15n 16V" V 4214 1325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4413 1175 50  0001 C CNN
-F 3 "~" H 4375 1325 50  0001 C CNN
-	1    4375 1325
+P 4575 1550
+F 0 "C502" V 4323 1550 50  0000 C CNN
+F 1 "15n 16V" V 4414 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4613 1400 50  0001 C CNN
+F 3 "~" H 4575 1550 50  0001 C CNN
+	1    4575 1550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -57,51 +57,34 @@ F 3 "~" H 2975 2275 50  0001 C CNN
 	1    2975 2275
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R503
-U 1 1 610560D6
-P 3675 1825
-F 0 "R503" V 3468 1825 50  0000 C CNN
-F 1 "620" V 3559 1825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3605 1825 50  0001 C CNN
-F 3 "~" H 3675 1825 50  0001 C CNN
-	1    3675 1825
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3275 1825 3425 1825
-Wire Wire Line
-	3825 1825 3925 1825
 Wire Wire Line
 	3125 2275 3425 2275
 Wire Wire Line
 	3425 2275 3425 1825
-Connection ~ 3425 1825
-Wire Wire Line
-	3425 1825 3525 1825
 Wire Wire Line
 	2825 2275 2525 2275
 Wire Wire Line
 	2525 2275 2525 1925
 Wire Wire Line
 	2525 1925 2675 1925
-Connection ~ 2525 2275
 Wire Wire Line
-	4675 1925 4825 1925
+	4875 2150 5025 2150
 Wire Wire Line
 	2675 1725 2400 1725
 Wire Wire Line
-	4225 1325 3925 1325
+	4425 1550 4125 1550
 Wire Wire Line
-	3925 1325 3925 1825
-Connection ~ 3925 1825
+	4125 1550 4125 2050
+Connection ~ 4125 2050
 Wire Wire Line
-	3925 1825 4075 1825
+	4125 2050 4275 2050
 Wire Wire Line
-	4525 1325 4825 1325
+	4725 1550 5025 1550
 Wire Wire Line
-	4825 1325 4825 1925
-Connection ~ 4825 1925
+	5025 1550 5025 2150
+Connection ~ 5025 2150
 $Comp
 L Device:C C501
 U 1 1 610B8642
@@ -167,8 +150,8 @@ F 3 "" H 1025 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4825 1925 5325 1925
-Text Label 5325 1925 2    50   ~ 0
+	5025 2150 5525 2150
+Text Label 5525 2150 2    50   ~ 0
 sig_triangle
 Text HLabel 9600 2375 2    50   Output ~ 0
 ~S-PWM
@@ -265,40 +248,20 @@ Wire Notes Line
 $Comp
 L Device:R R504
 U 1 1 61055E03
-P 3925 2600
-F 0 "R504" V 3718 2600 50  0000 C CNN
-F 1 "6.8k" V 3809 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3855 2600 50  0001 C CNN
-F 3 "~" H 3925 2600 50  0001 C CNN
-	1    3925 2600
+P 4075 2725
+F 0 "R504" V 3868 2725 50  0000 C CNN
+F 1 "6.8k" V 3959 2725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4005 2725 50  0001 C CNN
+F 3 "~" H 4075 2725 50  0001 C CNN
+	1    4075 2725
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_Variable R502
-U 1 1 6105EC41
-P 3450 2600
-F 0 "R502" V 3250 2600 50  0000 C CNN
-F 1 "5k" V 3350 2600 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" V 3380 2600 50  0001 C CNN
-F 3 "~" H 3450 2600 50  0001 C CNN
-F 4 "CT6EP102" V 3450 2600 50  0001 C CNN "Part Number"
-	1    3450 2600
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
-	3775 2600 3600 2600
-Wire Wire Line
-	3300 2600 2525 2600
-Wire Wire Line
-	2525 2275 2525 2600
-Wire Wire Line
-	4075 2600 4825 2600
+	3925 2725 3600 2725
 Text Notes 4650 2975 0    50   ~ 0
 25kHz Triangle Wave Generation
 Wire Notes Line
 	11225 3025 475  3025
-Wire Wire Line
-	4825 1925 4825 2600
 Text Notes 9450 2975 0    50   ~ 0
 S-PWM Inverting and Non-inverting outputs
 Wire Wire Line
@@ -321,18 +284,18 @@ Wire Wire Line
 $Comp
 L power:+2V5 #PWR0505
 U 1 1 610B2AC5
-P 4025 1975
-F 0 "#PWR0505" H 4025 1825 50  0001 C CNN
-F 1 "+2V5" H 3875 2025 50  0000 C CNN
-F 2 "" H 4025 1975 50  0001 C CNN
-F 3 "" H 4025 1975 50  0001 C CNN
-	1    4025 1975
+P 4225 2200
+F 0 "#PWR0505" H 4225 2050 50  0001 C CNN
+F 1 "+2V5" H 4075 2250 50  0000 C CNN
+F 2 "" H 4225 2200 50  0001 C CNN
+F 3 "" H 4225 2200 50  0001 C CNN
+	1    4225 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4025 1975 4025 2025
+	4225 2200 4225 2250
 Wire Wire Line
-	4025 2025 4075 2025
+	4225 2250 4275 2250
 $Comp
 L Comparator:LM2903 U502
 U 3 1 610EF685
@@ -403,4 +366,60 @@ Text HLabel 8450 1275 0    50   Input ~ 0
 SIG_IN
 Text HLabel 9600 1375 2    50   Output ~ 0
 S-PWM
+$Comp
+L Device:R_Variable R?
+U 1 1 6114CBC1
+P 1225 2625
+F 0 "R?" V 1025 2625 50  0000 C CNN
+F 1 "1k" V 1125 2625 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" V 1155 2625 50  0001 C CNN
+F 3 "~" H 1225 2625 50  0001 C CNN
+F 4 "CT6EP502" V 1225 2625 50  0001 C CNN "Part Number"
+	1    1225 2625
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 6114E136
+P 3450 2725
+F 0 "RV?" V 3335 2725 50  0000 C CNN
+F 1 "5k" V 3244 2725 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" H 3450 2725 50  0001 C CNN
+F 3 "~" H 3450 2725 50  0001 C CNN
+F 4 "CT6EP502" V 3450 2725 50  0001 C CNN "Part Number"
+	1    3450 2725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3450 2575 3450 2525
+Wire Wire Line
+	3450 2525 2525 2525
+Wire Wire Line
+	2525 2525 2525 2275
+Connection ~ 2525 2275
+NoConn ~ 3300 2725
+$Comp
+L Device:R_POT RV?
+U 1 1 611660D9
+P 3800 2050
+F 0 "RV?" V 3685 2050 50  0000 C CNN
+F 1 "1k" V 3594 2050 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" H 3800 2050 50  0001 C CNN
+F 3 "~" H 3800 2050 50  0001 C CNN
+F 4 "CT6EP102" V 3800 2050 50  0001 C CNN "Part Number"
+	1    3800 2050
+	0    1    -1   0   
+$EndComp
+NoConn ~ 3650 2050
+Wire Wire Line
+	3425 1825 3800 1825
+Wire Wire Line
+	3800 1825 3800 1900
+Connection ~ 3425 1825
+Wire Wire Line
+	3950 2050 4125 2050
+Wire Wire Line
+	5025 2150 5025 2725
+Wire Wire Line
+	4225 2725 5025 2725
 $EndSCHEMATC
