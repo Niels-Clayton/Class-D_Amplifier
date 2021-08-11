@@ -35,6 +35,7 @@ ECEN405 Class-D amplifier group project
   - Gate Charge Qg: 10nC
   - Rdson: 49m
 
+https://www.infineon.com/dgdl/Infineon-Using_Monolithic_Voltage_Gate_Drivers-AN-v01_00-EN.pdf?fileId=5546d462584d1d4a01585242c11947b1
 ---
 ## Output filter
 Signal freq max of 200Hz, Switching frequency of ~25kHz
