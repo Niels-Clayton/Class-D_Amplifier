@@ -118,10 +118,10 @@ F 4 "865080640003" H 5600 3550 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 6115F7AF
 P 5100 4125
-F 0 "L?" V 5290 4125 50  0000 C CNN
+F 0 "L1" V 5290 4125 50  0000 C CNN
 F 1 "270u" V 5199 4125 50  0000 C CNN
 F 2 "Inductor_THT:L_Toroid_Vertical_L31.8mm_W15.9mm_P13.50mm_Bourns_5700" H 5100 4125 50  0001 C CNN
 F 3 "https://belfuse.com/resources/datasheets/signaltransformer/ds-st-high-current-torodial-inductors-series.pdf" H 5100 4125 50  0001 C CNN
