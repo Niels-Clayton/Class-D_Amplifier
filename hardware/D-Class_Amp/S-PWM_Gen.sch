@@ -18,9 +18,9 @@ L Device:Opamp_Dual_Generic U301
 U 1 1 6104BA3C
 P 3225 1500
 F 0 "U301" H 3225 1133 50  0000 C CNN
-F 1 "MAX4016" H 3225 1224 50  0000 C CNN
+F 1 "TL972" H 3225 1224 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3225 1500 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4012-MAX4020.pdf" H 3225 1500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tl971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1628641427496&ref_url=https%253A%252F%252Fwww.digikey.co.nz%252F" H 3225 1500 50  0001 C CNN
 	1    3225 1500
 	1    0    0    1   
 $EndComp
@@ -29,9 +29,9 @@ L Device:Opamp_Dual_Generic U301
 U 2 1 6104BF37
 P 4825 1825
 F 0 "U301" H 4825 1458 50  0000 C CNN
-F 1 "MAX4016" H 4825 1549 50  0000 C CNN
+F 1 "TL972" H 4825 1549 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4825 1825 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4012-MAX4020.pdf" H 4825 1825 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tl971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1628641427496&ref_url=https%253A%252F%252Fwww.digikey.co.nz%252F" H 4825 1825 50  0001 C CNN
 	2    4825 1825
 	1    0    0    1   
 $EndComp
@@ -99,9 +99,9 @@ L Device:Opamp_Dual_Generic U301
 U 3 1 6104C970
 P 1775 1675
 F 0 "U301" V 1350 1675 50  0000 C CNN
-F 1 "MAX4016" V 1475 1675 50  0000 C CNN
+F 1 "TL972" V 1475 1675 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1775 1675 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4012-MAX4020.pdf" H 1775 1675 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tl971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1628641427496&ref_url=https%253A%252F%252Fwww.digikey.co.nz%252F" H 1775 1675 50  0001 C CNN
 	3    1775 1675
 	0    1    1    0   
 $EndComp
@@ -267,9 +267,9 @@ L Comparator:LM2903 U302
 U 3 1 610EF685
 P 7300 1525
 F 0 "U302" V 6975 1525 50  0000 C CNN
-F 1 "LM2903" V 7066 1525 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7300 1525 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 7300 1525 50  0001 C CNN
+F 1 "LMV393" V 7066 1525 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 7300 1525 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lmv393-n.pdf?ts=1628637593750&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV393-N%253Fqgpn%253Dlmv393-n" H 7300 1525 50  0001 C CNN
 	3    7300 1525
 	0    1    1    0   
 $EndComp
@@ -278,9 +278,9 @@ L Comparator:LM2903 U302
 U 2 1 610F0244
 P 8750 2375
 F 0 "U302" H 8750 2742 50  0000 C CNN
-F 1 "LM2903" H 8750 2651 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8750 2375 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 8750 2375 50  0001 C CNN
+F 1 "LMV393" H 8750 2651 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 8750 2375 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lmv393-n.pdf?ts=1628637593750&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV393-N%253Fqgpn%253Dlmv393-n" H 8750 2375 50  0001 C CNN
 	2    8750 2375
 	1    0    0    -1  
 $EndComp
@@ -289,9 +289,10 @@ L Comparator:LM2903 U302
 U 1 1 610ED916
 P 8750 1375
 F 0 "U302" H 8750 1008 50  0000 C CNN
-F 1 "LM2903" H 8750 1099 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8750 1375 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 8750 1375 50  0001 C CNN
+F 1 "LMV393" H 8750 1099 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 8750 1375 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lmv393-n.pdf?ts=1628637593750&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV393-N%253Fqgpn%253Dlmv393-n" H 8750 1375 50  0001 C CNN
+F 4 "LMV393MMX" H 8750 1375 50  0001 C CNN "Part Number"
 	1    8750 1375
 	1    0    0    1   
 $EndComp
@@ -431,7 +432,7 @@ $Comp
 L Device:R R301
 U 1 1 61160DF4
 P 775 1525
-F 0 "R301" H 650 1575 50  0000 C CNN
+F 0 "R301" H 625 1575 50  0000 C CNN
 F 1 "10K" H 625 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 705 1525 50  0001 C CNN
 F 3 "~" H 775 1525 50  0001 C CNN
@@ -455,7 +456,7 @@ $Comp
 L Device:R R302
 U 1 1 61175630
 P 775 1925
-F 0 "R302" H 650 1975 50  0000 C CNN
+F 0 "R302" H 625 2000 50  0000 C CNN
 F 1 "10K" H 625 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 705 1925 50  0001 C CNN
 F 3 "~" H 775 1925 50  0001 C CNN
