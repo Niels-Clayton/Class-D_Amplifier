@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name MCP1799T)(type KiCad)(uri "/home/niels/Desktop/Uni_Notes/Tri 2/ECEN405/Class-D_Amplifier/hardware/lib/footprint/MCP1799T.pretty")(options "")(descr ""))
-  (lib (name C4AQLLW5160A33K)(type KiCad)(uri "/home/niels/Desktop/Uni_Notes/Tri 2/ECEN405/Class-D_Amplifier/hardware/lib/footprint/C4AQLLW5160A33K.pretty")(options "")(descr ""))
+  (lib (name C4AQLLW5160A33K)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/C4AQLLW5160A33K.pretty)(options "")(descr ""))
+  (lib (name MCP1799T)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/MCP1799T.pretty)(options "")(descr ""))
 )
