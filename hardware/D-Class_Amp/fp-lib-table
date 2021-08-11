@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name C4AQLLW5160A33K)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/C4AQLLW5160A33K.pretty)(options "")(descr ""))
   (lib (name MCP1799T)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/MCP1799T.pretty)(options "")(descr ""))
+  (lib (name C4AQJLU5100M19J)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/C4AQJLU5100M19J.pretty)(options "")(descr ""))
+  (lib (name IND_HCTI-150-5.0)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/IND_HCTI-150-5.0.pretty)(options "")(descr ""))
 )
