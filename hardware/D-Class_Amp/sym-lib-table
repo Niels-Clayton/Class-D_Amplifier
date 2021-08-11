@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name MCP1799T)(type Legacy)(uri "/home/niels/Desktop/Uni_Notes/Tri 2/ECEN405/Class-D_Amplifier/hardware/lib/symbol/MCP1799T.lib")(options "")(descr ""))
+  (lib (name MCP1799T)(type Legacy)(uri ${KIPRJMOD}/lib/symbol/MCP1799T.lib)(options "")(descr ""))
 )
