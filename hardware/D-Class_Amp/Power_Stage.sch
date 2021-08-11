@@ -102,9 +102,7 @@ Wire Wire Line
 	5500 1800 5550 1800
 Connection ~ 5950 1550
 Wire Wire Line
-	4550 1300 5200 1300
-Wire Wire Line
-	4550 1800 5200 1800
+	4550 1300 4950 1300
 Wire Wire Line
 	5850 1550 4850 1550
 Wire Wire Line
@@ -145,17 +143,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3680 1700 50  0
 F 3 "~" H 3750 1700 50  0001 C CNN
 	1    3750 1700
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Q_NMOS_GDSD Q502
-U 1 1 6104F394
-P 5750 1800
-F 0 "Q502" H 6038 1846 50  0000 L CNN
-F 1 "PHP23NQ11T" H 6038 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabD" H 5950 1900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1800 50  0001 C CNN
-	1    5750 1800
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NMOS_GDSD Q501
@@ -202,28 +189,6 @@ F 1 "GND" H 8355 1927 50  0000 C CNN
 F 2 "" H 8350 2100 50  0001 C CNN
 F 3 "" H 8350 2100 50  0001 C CNN
 	1    8350 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDSD Q503
-U 1 1 610F221C
-P 8450 1300
-F 0 "Q503" H 8738 1346 50  0000 L CNN
-F 1 "PHP23NQ11T" H 8738 1255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabD" H 8650 1400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1300 50  0001 C CNN
-	1    8450 1300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GDSD Q504
-U 1 1 610F2226
-P 8450 1800
-F 0 "Q504" H 8738 1846 50  0000 L CNN
-F 1 "PHP23NQ11T" H 8738 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabD" H 8650 1900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1800 50  0001 C CNN
-	1    8450 1800
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -280,9 +245,9 @@ Wire Wire Line
 Wire Wire Line
 	8350 1550 9350 1550
 Wire Wire Line
-	9650 1800 9000 1800
+	9650 1800 9275 1800
 Wire Wire Line
-	9650 1300 9000 1300
+	9650 1300 9050 1300
 Connection ~ 8250 1550
 Wire Wire Line
 	8250 1550 7600 1550
@@ -302,8 +267,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 1100 8350 1050
 Connection ~ 8350 1550
-Wire Wire Line
-	8350 1550 8350 1500
 Wire Wire Line
 	8350 1550 8350 1600
 Wire Wire Line
@@ -442,46 +405,112 @@ F 3 "~" H 5350 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C501
-U 1 1 61139FFD
-P 3550 1300
-F 0 "C501" H 3642 1346 50  0000 L CNN
-F 1 "10u" H 3642 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3550 1300 50  0001 C CNN
-F 3 "~" H 3550 1300 50  0001 C CNN
-	1    3550 1300
-	-1   0    0    -1  
+L Connector:TestPoint TP?
+U 1 1 61148EFA
+P 4950 825
+AR Path="/61148EFA" Ref="TP?"  Part="1" 
+AR Path="/610497A4/61148EFA" Ref="TP501"  Part="1" 
+F 0 "TP501" H 5008 949 50  0000 L CNN
+F 1 "HO" H 4900 1050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5150 825 50  0001 C CNN
+F 3 "~" H 5150 825 50  0001 C CNN
+	1    4950 825 
+	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C502
-U 1 1 6113D2CB
-P 10650 1300
-F 0 "C502" H 10742 1346 50  0000 L CNN
-F 1 "10u" H 10742 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10650 1300 50  0001 C CNN
-F 3 "~" H 10650 1300 50  0001 C CNN
-	1    10650 1300
+L Connector:TestPoint TP?
+U 1 1 6114A61F
+P 5175 1025
+AR Path="/6114A61F" Ref="TP?"  Part="1" 
+AR Path="/610497A4/6114A61F" Ref="TP502"  Part="1" 
+F 0 "TP502" H 5233 1149 50  0000 L CNN
+F 1 "LO" H 5125 1250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5375 1025 50  0001 C CNN
+F 3 "~" H 5375 1025 50  0001 C CNN
+	1    5175 1025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 1700 10650 1400
-Connection ~ 10650 1700
+	4950 825  4950 1300
+Connection ~ 4950 1300
 Wire Wire Line
-	10650 1225 10650 1200
-Connection ~ 10650 1200
+	4950 1300 5200 1300
 Wire Wire Line
-	10650 1200 10650 950 
+	4550 1800 5175 1800
+Connection ~ 5175 1800
 Wire Wire Line
-	9950 950  10650 950 
+	5175 1800 5200 1800
 Wire Wire Line
-	3550 1700 3550 1400
-Connection ~ 3550 1700
+	5175 1025 5175 1800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61152F83
+P 9050 1025
+AR Path="/61152F83" Ref="TP?"  Part="1" 
+AR Path="/610497A4/61152F83" Ref="TP503"  Part="1" 
+F 0 "TP503" H 8775 1150 50  0000 L CNN
+F 1 "~HO" H 9000 1250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9250 1025 50  0001 C CNN
+F 3 "~" H 9250 1025 50  0001 C CNN
+	1    9050 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61153163
+P 9275 825
+AR Path="/61153163" Ref="TP?"  Part="1" 
+AR Path="/610497A4/61153163" Ref="TP504"  Part="1" 
+F 0 "TP504" H 8975 1000 50  0000 L CNN
+F 1 "~LO" H 9225 1050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9475 825 50  0001 C CNN
+F 3 "~" H 9475 825 50  0001 C CNN
+	1    9275 825 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3550 1200 3550 950 
+	9050 1025 9050 1300
 Wire Wire Line
-	3550 950  4250 950 
-Wire Notes Line
-	3000 2450 11225 2450
-Wire Notes Line
-	11225 2450 11225 2475
+	9275 825  9275 1800
+Connection ~ 9050 1300
+Wire Wire Line
+	9050 1300 9000 1300
+Connection ~ 9275 1800
+Wire Wire Line
+	9275 1800 9000 1800
+$Comp
+L Device:Q_NMOS_GDSD Q502
+U 1 1 61187A5E
+P 5750 1800
+F 0 "Q502" H 6038 1846 50  0000 L CNN
+F 1 "PHP23NQ11T" H 6038 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 5950 1900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1800 50  0001 C CNN
+	1    5750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1550 8350 1500
+$Comp
+L Device:Q_NMOS_GDSD Q503
+U 1 1 6118B010
+P 8450 1300
+F 0 "Q503" H 8738 1346 50  0000 L CNN
+F 1 "PHP23NQ11T" H 8738 1255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 8650 1400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1300 50  0001 C CNN
+	1    8450 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDSD Q504
+U 1 1 6118BB1D
+P 8450 1800
+F 0 "Q504" H 8738 1846 50  0000 L CNN
+F 1 "PHP23NQ11T" H 8738 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 8650 1900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1800 50  0001 C CNN
+	1    8450 1800
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
