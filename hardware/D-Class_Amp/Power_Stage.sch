@@ -513,4 +513,40 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 180
 	1    8450 1800
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C501
+U 1 1 61199493
+P 3550 1275
+F 0 "C501" H 3275 1350 50  0000 L CNN
+F 1 "10u" H 3300 1275 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3550 1275 50  0001 C CNN
+F 3 "~" H 3550 1275 50  0001 C CNN
+	1    3550 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C502
+U 1 1 6119B46C
+P 10650 1275
+F 0 "C502" H 10375 1350 50  0000 L CNN
+F 1 "10u" H 10425 1275 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10650 1275 50  0001 C CNN
+F 3 "~" H 10650 1275 50  0001 C CNN
+	1    10650 1275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 1700 10650 1375
+Connection ~ 10650 1700
+Wire Wire Line
+	10650 1175 10650 950 
+Wire Wire Line
+	10650 950  9950 950 
+Wire Wire Line
+	4250 950  3550 950 
+Wire Wire Line
+	3550 950  3550 1175
+Wire Wire Line
+	3550 1375 3550 1700
+Connection ~ 3550 1700
 $EndSCHEMATC
