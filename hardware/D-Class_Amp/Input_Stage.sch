@@ -507,31 +507,9 @@ Wire Wire Line
 	3850 4400 3800 4400
 Wire Wire Line
 	2950 4200 3850 4200
-$Comp
-L Connector:TestPoint TP202
-U 1 1 61142C7C
-P 3850 4150
-F 0 "TP202" H 3908 4268 50  0000 L CNN
-F 1 "Gain_Stage" H 3908 4177 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4050 4150 50  0001 C CNN
-F 3 "~" H 4050 4150 50  0001 C CNN
-	1    3850 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 4200 3850 4150
 Connection ~ 3850 4200
-$Comp
-L Connector:TestPoint TP201
-U 1 1 611488F4
-P 2550 2900
-F 0 "TP201" H 2608 3018 50  0000 L CNN
-F 1 "DC_Offset" H 2600 3100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 2750 2900 50  0001 C CNN
-F 3 "~" H 2750 2900 50  0001 C CNN
-	1    2550 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 2900 2550 3200
 Connection ~ 2550 3200
@@ -596,4 +574,26 @@ Wire Wire Line
 	1900 3200 1950 3200
 Wire Wire Line
 	2150 3200 2250 3200
+$Comp
+L Connector:TestPoint TP201
+U 1 1 611488F4
+P 2550 2900
+F 0 "TP201" H 2608 3018 50  0000 L CNN
+F 1 "DC_Offset" H 2600 3100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 2750 2900 50  0001 C CNN
+F 3 "~" H 2750 2900 50  0001 C CNN
+	1    2550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP202
+U 1 1 61142C7C
+P 3850 4150
+F 0 "TP202" H 3908 4268 50  0000 L CNN
+F 1 "Gain_Stage" H 3908 4177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4050 4150 50  0001 C CNN
+F 3 "~" H 4050 4150 50  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

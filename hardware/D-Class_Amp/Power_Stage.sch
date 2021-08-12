@@ -156,7 +156,7 @@ U 1 1 6104F024
 P 5750 1300
 F 0 "Q501" H 6038 1346 50  0000 L CNN
 F 1 "PHP23NQ11T" H 6038 1255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 5950 1400 50  0001 C CNN
+F 2 "PHP23NQ11T:PHP23NQ11T" H 5950 1400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1300 50  0001 C CNN
 F 4 "1.90" H 5750 1300 50  0001 C CNN "DigiKey Price"
 F 5 "PHP23NQ11T,127" H 5750 1300 50  0001 C CNN "Part Number"
@@ -428,32 +428,6 @@ F 5 "ERJ-6ENF10R0V" H 5350 1300 50  0001 C CNN "Part Number"
 	1    5350 1300
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61148EFA
-P 4950 825
-AR Path="/61148EFA" Ref="TP?"  Part="1" 
-AR Path="/610497A4/61148EFA" Ref="TP501"  Part="1" 
-F 0 "TP501" H 5008 949 50  0000 L CNN
-F 1 "HO" H 4900 1050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5150 825 50  0001 C CNN
-F 3 "~" H 5150 825 50  0001 C CNN
-	1    4950 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 6114A61F
-P 5175 1025
-AR Path="/6114A61F" Ref="TP?"  Part="1" 
-AR Path="/610497A4/6114A61F" Ref="TP502"  Part="1" 
-F 0 "TP502" H 5233 1149 50  0000 L CNN
-F 1 "LO" H 5125 1250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5375 1025 50  0001 C CNN
-F 3 "~" H 5375 1025 50  0001 C CNN
-	1    5175 1025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 825  4950 1300
 Connection ~ 4950 1300
@@ -466,32 +440,6 @@ Wire Wire Line
 	5175 1800 5200 1800
 Wire Wire Line
 	5175 1025 5175 1800
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61152F83
-P 9050 1025
-AR Path="/61152F83" Ref="TP?"  Part="1" 
-AR Path="/610497A4/61152F83" Ref="TP503"  Part="1" 
-F 0 "TP503" H 8775 1150 50  0000 L CNN
-F 1 "~HO" H 9000 1250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9250 1025 50  0001 C CNN
-F 3 "~" H 9250 1025 50  0001 C CNN
-	1    9050 1025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61153163
-P 9275 825
-AR Path="/61153163" Ref="TP?"  Part="1" 
-AR Path="/610497A4/61153163" Ref="TP504"  Part="1" 
-F 0 "TP504" H 8975 1000 50  0000 L CNN
-F 1 "~LO" H 9225 1050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9475 825 50  0001 C CNN
-F 3 "~" H 9475 825 50  0001 C CNN
-	1    9275 825 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9050 1025 9050 1300
 Wire Wire Line
@@ -508,7 +456,7 @@ U 1 1 61187A5E
 P 5750 1800
 F 0 "Q502" H 6038 1846 50  0000 L CNN
 F 1 "PHP23NQ11T" H 6038 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 5950 1900 50  0001 C CNN
+F 2 "PHP23NQ11T:PHP23NQ11T" H 5950 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1800 50  0001 C CNN
 F 4 "1.90" H 5750 1800 50  0001 C CNN "DigiKey Price"
 F 5 "PHP23NQ11T,127" H 5750 1800 50  0001 C CNN "Part Number"
@@ -523,7 +471,7 @@ U 1 1 6118B010
 P 8450 1300
 F 0 "Q503" H 8738 1346 50  0000 L CNN
 F 1 "PHP23NQ11T" H 8738 1255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 8650 1400 50  0001 C CNN
+F 2 "PHP23NQ11T:PHP23NQ11T" H 8650 1400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1300 50  0001 C CNN
 F 4 "1.90" H 8450 1300 50  0001 C CNN "DigiKey Price"
 F 5 "PHP23NQ11T,127" H 8450 1300 50  0001 C CNN "Part Number"
@@ -536,7 +484,7 @@ U 1 1 6118BB1D
 P 8450 1800
 F 0 "Q504" H 8738 1846 50  0000 L CNN
 F 1 "PHP23NQ11T" H 8738 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 8650 1900 50  0001 C CNN
+F 2 "PHP23NQ11T:PHP23NQ11T" H 8650 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1800 50  0001 C CNN
 F 4 "1.90" H 8450 1800 50  0001 C CNN "DigiKey Price"
 F 5 "PHP23NQ11T,127" H 8450 1800 50  0001 C CNN "Part Number"
@@ -583,4 +531,56 @@ Wire Wire Line
 Wire Wire Line
 	3550 1375 3550 1700
 Connection ~ 3550 1700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61153163
+P 9275 825
+AR Path="/61153163" Ref="TP?"  Part="1" 
+AR Path="/610497A4/61153163" Ref="TP504"  Part="1" 
+F 0 "TP504" H 8975 1000 50  0000 L CNN
+F 1 "~LO" H 9225 1050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9475 825 50  0001 C CNN
+F 3 "~" H 9475 825 50  0001 C CNN
+	1    9275 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61152F83
+P 9050 1025
+AR Path="/61152F83" Ref="TP?"  Part="1" 
+AR Path="/610497A4/61152F83" Ref="TP503"  Part="1" 
+F 0 "TP503" H 8775 1150 50  0000 L CNN
+F 1 "~HO" H 9000 1250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9250 1025 50  0001 C CNN
+F 3 "~" H 9250 1025 50  0001 C CNN
+	1    9050 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6114A61F
+P 5175 1025
+AR Path="/6114A61F" Ref="TP?"  Part="1" 
+AR Path="/610497A4/6114A61F" Ref="TP502"  Part="1" 
+F 0 "TP502" H 5233 1149 50  0000 L CNN
+F 1 "LO" H 5125 1250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5375 1025 50  0001 C CNN
+F 3 "~" H 5375 1025 50  0001 C CNN
+	1    5175 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61148EFA
+P 4950 825
+AR Path="/61148EFA" Ref="TP?"  Part="1" 
+AR Path="/610497A4/61148EFA" Ref="TP501"  Part="1" 
+F 0 "TP501" H 5008 949 50  0000 L CNN
+F 1 "HO" H 4900 1050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5150 825 50  0001 C CNN
+F 3 "~" H 5150 825 50  0001 C CNN
+	1    4950 825 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
