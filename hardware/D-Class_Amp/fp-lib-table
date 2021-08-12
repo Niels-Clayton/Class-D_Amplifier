@@ -3,4 +3,6 @@
   (lib (name C4AQJLU5100M19J)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/C4AQJLU5100M19J.pretty)(options "")(descr ""))
   (lib (name IND_HCTI-150-5.0)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/IND_HCTI-150-5.0.pretty)(options "")(descr ""))
   (lib (name PHP23NQ11T)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/PHP23NQ11T.pretty)(options "")(descr ""))
+  (lib (name silk_art)(type KiCad)(uri ${KIPRJMOD}/lib/silk/silk_art.pretty)(options "")(descr ""))
+  (lib (name Speaker)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/Speaker.pretty)(options "")(descr ""))
 )

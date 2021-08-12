@@ -458,7 +458,7 @@ U 1 1 6113BE68
 P 5400 1550
 F 0 "TP302" H 5458 1668 50  0000 L CNN
 F 1 "Triangle" H 5458 1577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5600 1550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5600 1550 50  0001 C CNN
 F 3 "~" H 5600 1550 50  0001 C CNN
 	1    5400 1550
 	1    0    0    -1  
@@ -469,7 +469,7 @@ U 1 1 6113D704
 P 3875 1200
 F 0 "TP301" H 3933 1318 50  0000 L CNN
 F 1 "Square" H 3933 1227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4075 1200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4075 1200 50  0001 C CNN
 F 3 "~" H 4075 1200 50  0001 C CNN
 	1    3875 1200
 	1    0    0    -1  

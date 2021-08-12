@@ -135,7 +135,7 @@ U 1 1 61193870
 P 10725 1375
 F 0 "LS101" H 10895 1371 50  0000 L CNN
 F 1 "Speaker" H 10895 1280 50  0000 L CNN
-F 2 "" H 10725 1175 50  0001 C CNN
+F 2 "Speaker:Speaker" H 10725 1175 50  0001 C CNN
 F 3 "~" H 10715 1325 50  0001 C CNN
 	1    10725 1375
 	1    0    0    -1  
@@ -567,7 +567,7 @@ U 1 1 6113731F
 P 10325 775
 F 0 "TP110" H 10383 893 50  0000 L CNN
 F 1 "~Speaker_Out" H 10383 802 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10525 775 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10525 775 50  0001 C CNN
 F 3 "~" H 10525 775 50  0001 C CNN
 	1    10325 775 
 	1    0    0    -1  
@@ -578,7 +578,7 @@ U 1 1 611372D5
 P 10175 775
 F 0 "TP109" H 10100 875 50  0000 R CNN
 F 1 "Speaker_Out" H 9700 800 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10375 775 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10375 775 50  0001 C CNN
 F 3 "~" H 10375 775 50  0001 C CNN
 	1    10175 775 
 	1    0    0    -1  
@@ -589,7 +589,7 @@ U 1 1 6112D764
 P 8975 775
 F 0 "TP108" H 9033 899 50  0000 L CNN
 F 1 "~P_Out" H 9033 801 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9175 775 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 9175 775 50  0001 C CNN
 F 3 "~" H 9175 775 50  0001 C CNN
 	1    8975 775 
 	1    0    0    -1  
@@ -600,7 +600,7 @@ U 1 1 6112D71A
 P 8825 775
 F 0 "TP107" H 8750 875 50  0000 R CNN
 F 1 "P_Out" H 8550 800 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 9025 775 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 9025 775 50  0001 C CNN
 F 3 "~" H 9025 775 50  0001 C CNN
 	1    8825 775 
 	1    0    0    -1  
@@ -611,7 +611,7 @@ U 1 1 61129DBB
 P 7775 775
 F 0 "TP106" H 7833 899 50  0000 L CNN
 F 1 "~S-PWM" H 7833 801 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7975 775 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7975 775 50  0001 C CNN
 F 3 "~" H 7975 775 50  0001 C CNN
 	1    7775 775 
 	1    0    0    -1  
@@ -622,7 +622,7 @@ U 1 1 6112B1A8
 P 7625 775
 F 0 "TP105" H 7550 875 50  0000 R CNN
 F 1 "S-PWM" H 7300 800 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7825 775 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7825 775 50  0001 C CNN
 F 3 "~" H 7825 775 50  0001 C CNN
 	1    7625 775 
 	1    0    0    -1  
@@ -633,7 +633,7 @@ U 1 1 6112780B
 P 6425 800
 F 0 "TP104" H 6483 918 50  0000 L CNN
 F 1 "Input Filter" H 6483 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6625 800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6625 800 50  0001 C CNN
 F 3 "~" H 6625 800 50  0001 C CNN
 	1    6425 800 
 	1    0    0    -1  
@@ -644,7 +644,7 @@ U 1 1 61126C37
 P 5175 800
 F 0 "TP103" H 5233 918 50  0000 L CNN
 F 1 "Audio In" H 5233 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5375 800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5375 800 50  0001 C CNN
 F 3 "~" H 5375 800 50  0001 C CNN
 	1    5175 800 
 	1    0    0    -1  
@@ -655,7 +655,7 @@ U 1 1 6113B863
 P 1675 2300
 F 0 "TP102" H 1733 2418 50  0000 L CNN
 F 1 "Signal GND" H 1733 2327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 1875 2300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1875 2300 50  0001 C CNN
 F 3 "~" H 1875 2300 50  0001 C CNN
 	1    1675 2300
 	1    0    0    -1  
@@ -666,7 +666,7 @@ U 1 1 6113B2E7
 P 900 2300
 F 0 "TP101" H 958 2418 50  0000 L CNN
 F 1 "Power GND" H 958 2327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 1100 2300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1100 2300 50  0001 C CNN
 F 3 "~" H 1100 2300 50  0001 C CNN
 	1    900  2300
 	1    0    0    -1  
