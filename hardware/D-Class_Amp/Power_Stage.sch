@@ -158,6 +158,8 @@ F 0 "Q501" H 6038 1346 50  0000 L CNN
 F 1 "PHP23NQ11T" H 6038 1255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 5950 1400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1300 50  0001 C CNN
+F 4 "1.90" H 5750 1300 50  0001 C CNN "DigiKey Price"
+F 5 "PHP23NQ11T,127" H 5750 1300 50  0001 C CNN "Part Number"
 	1    5750 1300
 	1    0    0    -1  
 $EndComp
@@ -508,6 +510,8 @@ F 0 "Q502" H 6038 1846 50  0000 L CNN
 F 1 "PHP23NQ11T" H 6038 1755 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 5950 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 5750 1800 50  0001 C CNN
+F 4 "1.90" H 5750 1800 50  0001 C CNN "DigiKey Price"
+F 5 "PHP23NQ11T,127" H 5750 1800 50  0001 C CNN "Part Number"
 	1    5750 1800
 	1    0    0    -1  
 $EndComp
@@ -521,6 +525,8 @@ F 0 "Q503" H 8738 1346 50  0000 L CNN
 F 1 "PHP23NQ11T" H 8738 1255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 8650 1400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1300 50  0001 C CNN
+F 4 "1.90" H 8450 1300 50  0001 C CNN "DigiKey Price"
+F 5 "PHP23NQ11T,127" H 8450 1300 50  0001 C CNN "Part Number"
 	1    8450 1300
 	-1   0    0    -1  
 $EndComp
@@ -532,6 +538,8 @@ F 0 "Q504" H 8738 1846 50  0000 L CNN
 F 1 "PHP23NQ11T" H 8738 1755 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown" H 8650 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PHP23NQ11T.pdf" H 8450 1800 50  0001 C CNN
+F 4 "1.90" H 8450 1800 50  0001 C CNN "DigiKey Price"
+F 5 "PHP23NQ11T,127" H 8450 1800 50  0001 C CNN "Part Number"
 	1    8450 1800
 	-1   0    0    -1  
 $EndComp

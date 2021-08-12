@@ -21,6 +21,8 @@ F 0 "U301" H 3225 1133 50  0000 C CNN
 F 1 "TL972" H 3225 1224 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3225 1500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tl971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1628641427496&ref_url=https%253A%252F%252Fwww.digikey.co.nz%252F" H 3225 1500 50  0001 C CNN
+F 4 "1.47" H 3225 1500 50  0001 C CNN "DigiKey Price"
+F 5 "TL972IDR" H 3225 1500 50  0001 C CNN "Part Number"
 	1    3225 1500
 	1    0    0    1   
 $EndComp
@@ -32,6 +34,8 @@ F 0 "U301" H 4825 1458 50  0000 C CNN
 F 1 "TL972" H 4825 1549 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4825 1825 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tl971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1628641427496&ref_url=https%253A%252F%252Fwww.digikey.co.nz%252F" H 4825 1825 50  0001 C CNN
+F 4 "1.47" H 4825 1825 50  0001 C CNN "DigiKey Price"
+F 5 "TL972IDR" H 4825 1825 50  0001 C CNN "Part Number"
 	2    4825 1825
 	1    0    0    1   
 $EndComp
@@ -108,6 +112,8 @@ F 0 "U301" V 1350 1675 50  0000 C CNN
 F 1 "TL972" V 1475 1675 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1775 1675 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tl971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1628641427496&ref_url=https%253A%252F%252Fwww.digikey.co.nz%252F" H 1775 1675 50  0001 C CNN
+F 4 "1.47" H 1775 1675 50  0001 C CNN "DigiKey Price"
+F 5 "TL972IDR" H 1775 1675 50  0001 C CNN "Part Number"
 	3    1775 1675
 	0    1    1    0   
 $EndComp
@@ -374,7 +380,7 @@ U 1 1 6113BE68
 P 5400 1550
 F 0 "TP302" H 5458 1668 50  0000 L CNN
 F 1 "Triangle" H 5458 1577 50  0000 L CNN
-F 2 "" H 5600 1550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5600 1550 50  0001 C CNN
 F 3 "~" H 5600 1550 50  0001 C CNN
 	1    5400 1550
 	1    0    0    -1  
@@ -392,7 +398,7 @@ U 1 1 6113D704
 P 3875 1200
 F 0 "TP301" H 3933 1318 50  0000 L CNN
 F 1 "Square" H 3933 1227 50  0000 L CNN
-F 2 "" H 4075 1200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 4075 1200 50  0001 C CNN
 F 3 "~" H 4075 1200 50  0001 C CNN
 	1    3875 1200
 	1    0    0    -1  
