@@ -492,9 +492,9 @@ P 3650 4400
 F 0 "RV201" H 3580 4446 50  0000 R CNN
 F 1 "20k" H 3580 4355 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" H 3650 4400 50  0001 C CNN
-F 3 "~" H 3650 4400 50  0001 C CNN
-F 4 "0.16" H 3650 4400 50  0001 C CNN "DigiKey Price"
-F 5 "ERJ-6ENF2002V" H 3650 4400 50  0001 C CNN "Part Number"
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" H 3650 4400 50  0001 C CNN
+F 4 "1.25" H 3650 4400 50  0001 C CNN "DigiKey Price"
+F 5 "CT6EP203" H 3650 4400 50  0001 C CNN "Part Number"
 	1    3650 4400
 	1    0    0    -1  
 $EndComp
