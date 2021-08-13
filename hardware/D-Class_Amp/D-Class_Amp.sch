@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5375 1125 850  600 
+S 5475 1125 850  600 
 U 6104907A
 F0 "Input_Stage" 50
 F1 "Input_Stage.sch" 50
-F2 "SIG_IN" I L 5375 1425 50 
-F3 "FILT_OUT" O R 6225 1425 50 
+F2 "SIG_IN" I L 5475 1425 50 
+F3 "FILT_OUT" O R 6325 1425 50 
 $EndSheet
 $Sheet
 S 6625 1125 900  600 
@@ -31,8 +31,6 @@ F3 "~S-PWM" O R 7525 1525 50
 F4 "SIG_IN" I L 6625 1425 50 
 $EndSheet
 Wire Wire Line
-	6225 1425 6425 1425
-Wire Wire Line
 	10425 1325 10425 1375
 Wire Wire Line
 	10425 1525 10425 1475
@@ -42,13 +40,11 @@ U 1 1 611DD9A4
 P 4700 1425
 F 0 "J102" H 4732 1750 50  0000 C CNN
 F 1 "AudioJack2" H 4732 1659 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 4700 1425 50  0001 C CNN
+F 2 "CUI_MJ-63022A:CUI_MJ-63022A" H 4700 1425 50  0001 C CNN
 F 3 "~" H 4700 1425 50  0001 C CNN
 	1    4700 1425
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	4900 1425 5175 1425
 $Comp
 L power:GNDS #PWR0114
 U 1 1 611DE882
@@ -175,15 +171,9 @@ Connection ~ 7775 1525
 Wire Wire Line
 	7775 1525 7875 1525
 Wire Wire Line
-	6425 800  6425 1425
-Connection ~ 6425 1425
+	6475 800  6475 1425
 Wire Wire Line
-	6425 1425 6625 1425
-Wire Wire Line
-	5175 800  5175 1425
-Connection ~ 5175 1425
-Wire Wire Line
-	5175 1425 5375 1425
+	5375 800  5375 950 
 Wire Wire Line
 	10175 775  10175 1325
 Wire Wire Line
@@ -554,10 +544,12 @@ $Comp
 L Connector:Barrel_Jack_MountingPin J101
 U 1 1 612622C7
 P 4450 2550
-F 0 "J101" H 4450 2875 50  0000 C CNN
-F 1 "Barrel_Jack_MountingPin" H 4507 2776 50  0000 C CNN
-F 2 "" H 4500 2510 50  0001 C CNN
+F 0 "J101" H 4450 2850 50  0000 C CNN
+F 1 "P_IN" H 4450 2750 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 4500 2510 50  0001 C CNN
 F 3 "~" H 4500 2510 50  0001 C CNN
+F 4 "1.20" H 4450 2550 50  0001 C CNN "DigiKey Price"
+F 5 "PJ-002BH" H 4450 2550 50  0001 C CNN "Part Number"
 	1    4450 2550
 	1    0    0    -1  
 $EndComp
@@ -630,23 +622,23 @@ $EndComp
 $Comp
 L Connector:TestPoint TP104
 U 1 1 6112780B
-P 6425 800
-F 0 "TP104" H 6483 918 50  0000 L CNN
-F 1 "Input Filter" H 6483 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6625 800 50  0001 C CNN
-F 3 "~" H 6625 800 50  0001 C CNN
-	1    6425 800 
+P 6475 800
+F 0 "TP104" H 6533 918 50  0000 L CNN
+F 1 "Input Filter" H 6533 827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6675 800 50  0001 C CNN
+F 3 "~" H 6675 800 50  0001 C CNN
+	1    6475 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP103
 U 1 1 61126C37
-P 5175 800
-F 0 "TP103" H 5233 918 50  0000 L CNN
-F 1 "Audio In" H 5233 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5375 800 50  0001 C CNN
-F 3 "~" H 5375 800 50  0001 C CNN
-	1    5175 800 
+P 5375 800
+F 0 "TP103" H 5433 918 50  0000 L CNN
+F 1 "Audio In" H 5433 827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5575 800 50  0001 C CNN
+F 3 "~" H 5575 800 50  0001 C CNN
+	1    5375 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -693,6 +685,169 @@ F 1 "GND" H 1305 1502 50  0000 C CNN
 F 2 "" H 1300 1675 50  0001 C CNN
 F 3 "" H 1300 1675 50  0001 C CNN
 	1    1300 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H103
+U 1 1 61192847
+P 5050 800
+F 0 "H103" H 5150 849 50  0000 L CNN
+F 1 "SIG" H 4975 975 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5050 800 50  0001 C CNN
+F 3 "~" H 5050 800 50  0001 C CNN
+	1    5050 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 1425 6475 1425
+Connection ~ 6475 1425
+Wire Wire Line
+	6475 1425 6625 1425
+Connection ~ 5375 1425
+Wire Wire Line
+	5375 1425 5475 1425
+Wire Wire Line
+	4900 1425 5375 1425
+Wire Wire Line
+	5050 1525 5050 1375
+Connection ~ 5050 1525
+Wire Wire Line
+	5050 900  5050 950 
+Wire Wire Line
+	5050 950  5375 950 
+Connection ~ 5375 950 
+Wire Wire Line
+	5375 950  5375 1425
+$Comp
+L Mechanical:MountingHole_Pad H104
+U 1 1 61173615
+P 5050 1275
+F 0 "H104" H 5150 1324 50  0000 L CNN
+F 1 "GNDS" H 5050 1450 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5050 1275 50  0001 C CNN
+F 3 "~" H 5050 1275 50  0001 C CNN
+	1    5050 1275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 2850
+$Comp
+L power:VDD #PWR?
+U 1 1 611BD52F
+P 4800 2400
+AR Path="/610497A4/611BD52F" Ref="#PWR?"  Part="1" 
+AR Path="/611BD52F" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 4800 2250 50  0001 C CNN
+F 1 "VDD" H 4815 2573 50  0000 C CNN
+F 2 "" H 4800 2400 50  0001 C CNN
+F 3 "" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 611C0B92
+P 4800 2700
+F 0 "#PWR0116" H 4800 2450 50  0001 C CNN
+F 1 "GND" H 4805 2527 50  0000 C CNN
+F 2 "" H 4800 2700 50  0001 C CNN
+F 3 "" H 4800 2700 50  0001 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2650 4800 2650
+Wire Wire Line
+	4800 2650 4800 2700
+Wire Wire Line
+	4750 2450 4800 2450
+Wire Wire Line
+	4800 2450 4800 2400
+$Comp
+L Mechanical:MountingHole_Pad H105
+U 1 1 611E3235
+P 6600 2600
+F 0 "H105" H 6700 2649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6700 2558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 6600 2600 50  0001 C CNN
+F 3 "~" H 6600 2600 50  0001 C CNN
+	1    6600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H106
+U 1 1 611E3AD1
+P 6600 3200
+F 0 "H106" H 6700 3249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6700 3158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 6600 3200 50  0001 C CNN
+F 3 "~" H 6600 3200 50  0001 C CNN
+	1    6600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H107
+U 1 1 611E3C5C
+P 7750 2600
+F 0 "H107" H 7850 2649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 2558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7750 2600 50  0001 C CNN
+F 3 "~" H 7750 2600 50  0001 C CNN
+	1    7750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H108
+U 1 1 611E3E0A
+P 7750 3200
+F 0 "H108" H 7850 3249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 3158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 7750 3200 50  0001 C CNN
+F 3 "~" H 7750 3200 50  0001 C CNN
+	1    7750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 611E8313
+P 6600 3300
+F 0 "#PWR0118" H 6600 3050 50  0001 C CNN
+F 1 "GND" H 6605 3127 50  0000 C CNN
+F 2 "" H 6600 3300 50  0001 C CNN
+F 3 "" H 6600 3300 50  0001 C CNN
+	1    6600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 611E894E
+P 6600 2700
+F 0 "#PWR0117" H 6600 2450 50  0001 C CNN
+F 1 "GND" H 6605 2527 50  0000 C CNN
+F 2 "" H 6600 2700 50  0001 C CNN
+F 3 "" H 6600 2700 50  0001 C CNN
+	1    6600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 611E8D8E
+P 7750 2700
+F 0 "#PWR0119" H 7750 2450 50  0001 C CNN
+F 1 "GND" H 7755 2527 50  0000 C CNN
+F 2 "" H 7750 2700 50  0001 C CNN
+F 3 "" H 7750 2700 50  0001 C CNN
+	1    7750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 611E9089
+P 7750 3300
+F 0 "#PWR0120" H 7750 3050 50  0001 C CNN
+F 1 "GND" H 7755 3127 50  0000 C CNN
+F 2 "" H 7750 3300 50  0001 C CNN
+F 3 "" H 7750 3300 50  0001 C CNN
+	1    7750 3300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

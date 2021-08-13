@@ -5,4 +5,5 @@
   (lib (name PHP23NQ11T)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/PHP23NQ11T.pretty)(options "")(descr ""))
   (lib (name silk_art)(type KiCad)(uri ${KIPRJMOD}/lib/silk/silk_art.pretty)(options "")(descr ""))
   (lib (name Speaker)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/Speaker.pretty)(options "")(descr ""))
+  (lib (name CUI_MJ-63022A)(type KiCad)(uri ${KIPRJMOD}/lib/footprint/CUI_MJ-63022A.pretty)(options "")(descr ""))
 )
