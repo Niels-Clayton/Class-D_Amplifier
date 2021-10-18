@@ -486,7 +486,7 @@ $EndComp
 Wire Wire Line
 	2250 3200 2550 3200
 $Comp
-L Device:R_POT RV201
+L D-Class_Amp-rescue:R_POT-Device RV201
 U 1 1 61134898
 P 3650 4400
 F 0 "RV201" H 3580 4446 50  0000 R CNN
@@ -556,7 +556,7 @@ C_OUT
 Wire Wire Line
 	7425 4550 7150 4550
 $Comp
-L Device:CP_Small C?
+L D-Class_Amp-rescue:CP_Small-Device C?
 U 1 1 6134BD3A
 P 2050 3200
 AR Path="/610497C9/6134BD3A" Ref="C?"  Part="1" 

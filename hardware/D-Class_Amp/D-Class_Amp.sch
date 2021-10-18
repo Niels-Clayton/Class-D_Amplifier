@@ -87,7 +87,7 @@ F 3 "" H 1175 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT101
+L D-Class_Amp-rescue:Net-Tie_2-Device NT101
 U 1 1 612A676E
 P 1575 2650
 F 0 "NT101" H 1575 2831 50  0000 C CNN
@@ -495,7 +495,7 @@ $EndComp
 Wire Wire Line
 	3750 2700 3750 2550
 $Comp
-L Device:CP C104
+L D-Class_Amp-rescue:CP-Device C104
 U 1 1 6127F37C
 P 3450 2550
 F 0 "C104" V 3705 2550 50  0000 C CNN
@@ -858,13 +858,13 @@ Wire Notes Line
 Wire Notes Line
 	475  3100 475  3125
 $Comp
-L Device:CP_Small C?
+L D-Class_Amp-rescue:CP_Small-Device C?
 U 1 1 616826E8
 P 4150 1450
 AR Path="/610497A4/616826E8" Ref="C?"  Part="1" 
 AR Path="/616826E8" Ref="C106"  Part="1" 
 F 0 "C106" H 3875 1450 50  0000 L CNN
-F 1 "100n 16V" H 3875 1375 50  0000 L CNN
+F 1 "100u 6.3V" H 3875 1375 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 4150 1450 50  0001 C CNN
 F 3 "~" H 4150 1450 50  0001 C CNN
 F 4 "0.16" H 4150 1450 50  0001 C CNN "DigiKey Price"

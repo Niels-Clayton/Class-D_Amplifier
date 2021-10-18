@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Opamp_Dual_Generic U301
+L D-Class_Amp-rescue:Opamp_Dual_Generic-Device U301
 U 1 1 6104BA3C
 P 3225 1500
 F 0 "U301" H 3225 1133 50  0000 C CNN
@@ -27,7 +27,7 @@ F 5 "TL972IDR" H 3225 1500 50  0001 C CNN "Part Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Opamp_Dual_Generic U301
+L D-Class_Amp-rescue:Opamp_Dual_Generic-Device U301
 U 2 1 6104BF37
 P 4825 1825
 F 0 "U301" H 4825 1458 50  0000 C CNN
@@ -105,7 +105,7 @@ F 5 "885012207045" H 2125 1775 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Dual_Generic U301
+L D-Class_Amp-rescue:Opamp_Dual_Generic-Device U301
 U 3 1 6104C970
 P 1775 1675
 F 0 "U301" V 1350 1675 50  0000 C CNN
@@ -331,7 +331,7 @@ SIG_IN
 Text HLabel 9600 1375 2    50   Output ~ 0
 S-PWM
 $Comp
-L Device:R_POT RV301
+L D-Class_Amp-rescue:R_POT-Device RV301
 U 1 1 6114E136
 P 3700 2400
 F 0 "RV301" V 3585 2400 50  0000 C CNN
@@ -352,7 +352,7 @@ Wire Wire Line
 Connection ~ 2775 1950
 NoConn ~ 3550 2400
 $Comp
-L Device:R_POT RV302
+L D-Class_Amp-rescue:R_POT-Device RV302
 U 1 1 611660D9
 P 4050 1725
 F 0 "RV302" V 3935 1725 50  0000 C CNN

@@ -88,7 +88,7 @@ F 5 "5.67" H 6125 3725 50  0001 C CNN "DigiKey Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C402
+L D-Class_Amp-rescue:CP_Small-Device C402
 U 1 1 611418FA
 P 5600 3900
 F 0 "C402" H 5300 3950 50  0000 L CNN
@@ -118,7 +118,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 3725 5600 3800
 $Comp
-L Device:CP_Small C401
+L D-Class_Amp-rescue:CP_Small-Device C401
 U 1 1 613470A8
 P 5600 3550
 F 0 "C401" H 5700 3600 50  0000 L CNN
