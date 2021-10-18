@@ -91,6 +91,8 @@ $Comp
 L D-Class_Amp-rescue:CP_Small-Device C402
 U 1 1 611418FA
 P 5600 3900
+AR Path="/611418FA" Ref="C402"  Part="1" 
+AR Path="/610497C9/611418FA" Ref="C402"  Part="1" 
 F 0 "C402" H 5300 3950 50  0000 L CNN
 F 1 "1u 50V" H 5250 3850 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 5638 3750 50  0001 C CNN
@@ -121,6 +123,8 @@ $Comp
 L D-Class_Amp-rescue:CP_Small-Device C401
 U 1 1 613470A8
 P 5600 3550
+AR Path="/613470A8" Ref="C401"  Part="1" 
+AR Path="/610497C9/613470A8" Ref="C401"  Part="1" 
 F 0 "C401" H 5700 3600 50  0000 L CNN
 F 1 "1u 50V" H 5675 3500 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 5638 3400 50  0001 C CNN
