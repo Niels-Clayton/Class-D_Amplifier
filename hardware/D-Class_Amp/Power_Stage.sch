@@ -583,4 +583,6 @@ F 3 "~" H 5150 825 50  0001 C CNN
 	1    4950 825 
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	3000 2425 11225 2425
 $EndSCHEMATC
