@@ -1,4 +1,4 @@
-# D-Class Amplifier
+# [D-Class Amplifier](https://niels-clayton.github.io/D-Class_Amplifier/)
 ECEN405 Class-D amplifier group project
 
 **Team members:**
