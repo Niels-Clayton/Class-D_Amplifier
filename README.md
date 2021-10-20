@@ -1,4 +1,4 @@
-# Class-D_Amplifier
+# D-Class Amplifier
 ECEN405 Class-D amplifier group project
 
 **Team members:**
