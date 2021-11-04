@@ -259,7 +259,7 @@ Wire Notes Line
 	6300 3025 6300 475 
 Text Notes 4650 2975 0    50   ~ 0
 Adj Triangle Wave Generation
-Text Notes 9450 2975 0    50   ~ 0
+Text Notes 8225 2975 0    50   ~ 0
 S-PWM Inverting and Non-inverting outputs
 Wire Wire Line
 	1425 1575 1425 1925
