@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name MCP1799T)(type Legacy)(uri ${KIPRJMOD}/lib/symbol/MCP1799T.lib)(options "")(descr ""))
   (lib (name D-Class_Amp-rescue)(type Legacy)(uri ${KIPRJMOD}/D-Class_Amp-rescue.lib)(options "")(descr ""))
+  (lib (name graphic)(type Legacy)(uri ${KIPRJMOD}/lib/symbol/graphic.lib)(options "")(descr ""))
 )

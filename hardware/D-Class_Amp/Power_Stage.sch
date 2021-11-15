@@ -64,10 +64,10 @@ L Device:D D501
 U 1 1 610CB2EC
 P 4600 950
 F 0 "D501" H 4600 733 50  0000 C CNN
-F 1 "UG1B-E3/54" H 4600 824 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4600 950 50  0001 C CNN
-F 3 "~https://media.digikey.com/pdf/Data%20Sheets/Vishay%20Semiconductors/UG1A-UG1D.pdf" H 4600 950 50  0001 C CNN
-F 4 "0.77" H 4600 950 50  0001 C CNN "DigiKey Price"
+F 1 "SMD1150PL-TP" H 4600 824 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4600 950 50  0001 C CNN
+F 3 "https://www.digikey.co.nz/en/products/detail/micro-commercial-co/SMD1150PL-TP/2698533" H 4600 950 50  0001 C CNN
+F 4 "0.67" H 4600 950 50  0001 C CNN "DigiKey Price"
 F 5 "UG1B-E3/54" H 4600 950 50  0001 C CNN "Part Number"
 	1    4600 950 
 	-1   0    0    1   
@@ -300,10 +300,10 @@ L Device:D D502
 U 1 1 610F2287
 P 9600 950
 F 0 "D502" H 9600 733 50  0000 C CNN
-F 1 "UG1B-E3/54" H 9600 824 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 9600 950 50  0001 C CNN
-F 3 "~https://media.digikey.com/pdf/Data%20Sheets/Vishay%20Semiconductors/UG1A-UG1D.pdf" H 9600 950 50  0001 C CNN
-F 4 "0.77" H 9600 950 50  0001 C CNN "DigiKey Price"
+F 1 "SMD1150PL-TP" H 9600 824 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 9600 950 50  0001 C CNN
+F 3 "https://www.digikey.co.nz/en/products/detail/micro-commercial-co/SMD1150PL-TP/2698533" H 9600 950 50  0001 C CNN
+F 4 "0.67" H 9600 950 50  0001 C CNN "DigiKey Price"
 F 5 "UG1B-E3/54" H 9600 950 50  0001 C CNN "Part Number"
 	1    9600 950 
 	1    0    0    1   

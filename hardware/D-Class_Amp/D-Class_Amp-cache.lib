@@ -534,6 +534,18 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# graphic_silk_art
+#
+DEF graphic_silk_art G 0 40 Y Y 1 F N
+F0 "G" 0 150 50 H V C CNN
+F1 "graphic_silk_art" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 F
+ENDDRAW
+ENDDEF
+#
 # power_+12V
 #
 DEF power_+12V #PWR 0 0 Y Y 1 F P
